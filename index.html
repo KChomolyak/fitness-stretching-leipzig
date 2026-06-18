@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fitness Stretching Leipzig</title>
-  <meta name="description" content="Fitness, Stretching, Dance Studio und Massage in Leipzig. Kurse für Anfänger und Fortgeschrittene." />
+  <meta name="description" content="Fitness Stretching Leipzig: Fitness, Pilates, Stretching, Dance, Kids Classes und Massage in Leipzig." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,10 +12,8 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand-logo small" href="#home" aria-label="Fitness Stretching Leipzig">
-      <span class="logo-line-1">FITNESS</span>
-      <span class="logo-line-2">STRETCHING</span>
-      <span class="logo-line-3"><i></i>LEIPZIG<i></i></span>
+    <a class="brand-logo header-logo" href="#home" aria-label="Fitness Stretching Leipzig">
+      <span class="logo-line-1">FITNESS</span><span class="logo-line-2">STRETCHING</span><span class="logo-line-3"><i></i>LEIPZIG<i></i></span>
     </a>
     <button class="menu-toggle" aria-label="Menü öffnen">☰</button>
     <nav class="main-nav" id="mainNav">
@@ -23,14 +21,15 @@
       <a href="#courses" data-i18n="navCourses">Kurse & Preise</a>
       <a href="#massage" data-i18n="navMassage">Massage</a>
       <a href="#about" data-i18n="navAbout">Über uns</a>
+      <a href="#gallery" data-i18n="navGallery">Galerie</a>
       <a href="#contact" data-i18n="navContact">Kontakt</a>
     </nav>
     <a class="header-cta" href="#contact" data-i18n="bookTrial">PROBETRAINING BUCHEN</a>
     <div class="language-switch" aria-label="Sprachauswahl">
-      <button data-lang="de" class="active" aria-label="Deutsch"><img src="assets/flags/de.svg" alt="Deutsch"></button>
-      <button data-lang="uk" aria-label="Українська"><img src="assets/flags/ua.svg" alt="Українська"></button>
-      <button data-lang="ru" aria-label="Русский"><img src="assets/flags/ru.svg" alt="Русский"></button>
-      <button data-lang="en" aria-label="English"><img src="assets/flags/gb.svg" alt="English"></button>
+      <button data-lang="de" class="active" aria-label="Deutsch"><img src="assets/flags/de.svg" alt="Deutsch"><b>DE</b></button>
+      <button data-lang="uk" aria-label="Українська"><img src="assets/flags/ua.svg" alt="Українська"><b>UA</b></button>
+      <button data-lang="ru" aria-label="Русский"><img src="assets/flags/ru.svg" alt="Русский"><b>RU</b></button>
+      <button data-lang="en" aria-label="English"><img src="assets/flags/gb.svg" alt="English"><b>EN</b></button>
     </div>
   </header>
 
@@ -38,37 +37,37 @@
     <section class="hero" id="home">
       <div class="hero-copy">
         <div class="brand-logo hero-logo" aria-label="Fitness Stretching Leipzig">
-          <span class="logo-line-1">FITNESS</span>
-          <span class="logo-line-2">STRETCHING</span>
-          <span class="logo-line-3"><i></i>LEIPZIG<i></i></span>
+          <span class="logo-line-1">FITNESS</span><span class="logo-line-2">STRETCHING</span><span class="logo-line-3"><i></i>LEIPZIG<i></i></span>
         </div>
-        <p class="hero-subtitle" data-i18n="heroSubtitle">Fitness • Stretching • Dance • Massage</p>
+        <p class="hero-kicker" data-i18n="heroKicker">Bewegung. Gesundheit. Wohlbefinden.</p>
+        <p class="hero-subtitle" data-i18n="heroSubtitle">Fitness • Pilates • Stretching • Dance • Kids • Massage</p>
         <div class="divider"></div>
         <p class="address">📍 <span data-i18n="address">Lutherstraße 14, Leipzig</span></p>
         <div class="hero-actions">
           <a class="btn primary" href="#contact" data-i18n="bookTrial">PROBETRAINING BUCHEN</a>
-          <a class="btn secondary" href="https://wa.me/4917624785836" target="_blank" rel="noopener">☘ WHATSAPP</a>
+          <a class="btn secondary" href="https://wa.me/4917624785836" target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
-      <div class="hero-image" role="img" aria-label="Stretching Training"></div>
+      <div class="hero-image" role="img" aria-label="Fitness Stretching Leipzig Studio"></div>
     </section>
 
     <section class="benefits" aria-label="Vorteile">
-      <div class="benefit"><span>♈</span><p data-i18n="benefit1">Mehr Beweglichkeit</p></div>
-      <div class="benefit"><span>♙</span><p data-i18n="benefit2">Bessere Haltung</p></div>
+      <div class="benefit"><span>✦</span><p data-i18n="benefit1">Mehr Beweglichkeit</p></div>
+      <div class="benefit"><span>◇</span><p data-i18n="benefit2">Bessere Haltung</p></div>
       <div class="benefit"><span>♡</span><p data-i18n="benefit3">Weniger Schmerzen</p></div>
-      <div class="benefit"><span>♛</span><p data-i18n="benefit4">Mehr Energie</p></div>
-      <div class="benefit"><span>♧</span><p data-i18n="benefit5">Individuelle Betreuung</p></div>
+      <div class="benefit"><span>✺</span><p data-i18n="benefit4">Mehr Energie</p></div>
+      <div class="benefit"><span>☘</span><p data-i18n="benefit5">Individuelle Betreuung</p></div>
       <div class="benefit"><span>✿</span><p data-i18n="benefit6">Für Anfänger & Fortgeschrittene</p></div>
     </section>
 
     <section class="intro section" id="about">
-      <div class="intro-image"><img src="assets/studio.jpg" alt="Fitness Stretching Leipzig Studio"></div>
+      <div class="intro-image"><img src="assets/intro.jpg" alt="Training im Studio Fitness Stretching Leipzig"></div>
       <div class="intro-text">
         <p class="eyebrow">Leipzig • Lutherstraße 14</p>
         <h2 data-i18n="welcomeTitle">Willkommen bei Fitness Stretching Leipzig</h2>
-        <p data-i18n="welcomeText">Unser Studio ist ein Ort für alle, die ihren Körper stärken, beweglicher werden und sich rundum wohlfühlen möchten. Wir bieten ein vielfältiges Kursprogramm für Erwachsene und Kinder sowie professionelle Massagen.</p>
-        <a class="btn outline" href="#courses" data-i18n="moreAbout">Mehr erfahren</a>
+        <p data-i18n="welcomeText">Fitness Stretching Leipzig ist ein modernes Bewegungsstudio für Erwachsene, Kinder und werdende Mütter. Wir verbinden Fitness, Pilates, Stretching, Tanz und Programme für Kinder in einem Raum, in dem sich jeder sicher und wohl fühlen kann.</p>
+        <p data-i18n="approachText">Wir glauben, dass Bewegung Freude machen soll. Deshalb achten wir auf saubere Technik, individuelle Bedürfnisse und eine angenehme Atmosphäre in kleinen Gruppen.</p>
+        <a class="btn outline" href="#courses" data-i18n="moreAbout">Kurse ansehen</a>
       </div>
     </section>
 
@@ -77,27 +76,30 @@
         <p class="eyebrow" data-i18n="coursesEyebrow">Kurse & Preise</p>
         <h2 data-i18n="coursesTitle">Training für Kraft, Flexibilität und Körpergefühl</h2>
       </div>
-      <div class="cards">
-        <article class="card course-card">
-          <div class="course-image-wrap"><img class="course-image" src="assets/courses/fitness.jpg" alt="Fitness & Body Shaping"></div>
-          <div class="card-body"><h3>Fitness & Body Shaping</h3><p data-i18n="course1">Ganzheitliches Training für eine starke Wirbelsäule, Mobility Sculpt, Beckenbodentraining und bessere Haltung.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div>
-        </article>
-        <article class="card course-card">
-          <div class="course-image-wrap"><img class="course-image" src="assets/courses/stretching.jpg" alt="Stretching & Mobility"></div>
-          <div class="card-body"><h3>Stretching & Mobility</h3><p data-i18n="course2">Individuelles Stretching für mehr Flexibilität, weniger Schmerzen und mehr Beweglichkeit.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div>
-        </article>
-        <article class="card course-card">
-          <div class="course-image-wrap"><img class="course-image" src="assets/courses/barre.jpg" alt="Barre Workout"></div>
-          <div class="card-body"><h3>Barre Workout</h3><p data-i18n="course3">Ballett an der Stange kombiniert mit sanftem Stretching: elegante Haltung, schlanke Beine, Kraft und Anmut.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div>
-        </article>
-        <article class="card course-card">
-          <div class="course-image-wrap"><img class="course-image" src="assets/courses/dance.jpg" alt="Dance Classes"></div>
-          <div class="card-body"><h3>Dance Classes</h3><p data-i18n="course4">Tanz für Energie, Selbstbewusstsein und Ausstrahlung: High Heels Dance, Lady Latino Dance und mehr.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div>
-        </article>
-        <article class="card course-card">
-          <div class="course-image-wrap"><img class="course-image" src="assets/courses/kids.jpg" alt="Kids Classes"></div>
-          <div class="card-body"><h3>Kids Classes</h3><p data-i18n="course5">Bewegung für Kinder ab 4 und 9 Jahren: Neuroentwicklung, Koordination, Flexibilität und Motorik.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div>
-        </article>
+      <div class="cards course-grid">
+        <article class="card"><img class="course-image" src="assets/courses/stretching.jpg" alt="Fitness Stretching"><div class="card-body"><h3>Fitness Stretching</h3><p data-i18n="courseStretching">Komplexe Trainings für mehr Flexibilität, bewegliche Gelenke, bessere Haltung und mehr Wohlbefinden.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div></article>
+        <article class="card"><img class="course-image" src="assets/courses/pilates.jpg" alt="Pilates Sculpt Mobility Stretch"><div class="card-body"><h3>Pilates Sculpt Mobility Stretch</h3><p data-i18n="coursePilates">Pilates, Functional Training, Mobility und Stretching für tiefe Muskulatur, Körperkontrolle und einen starken Rücken.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div></article>
+        <article class="card"><img class="course-image" src="assets/courses/barre.jpg" alt="Barre Workout"><div class="card-body"><h3>Barre</h3><p data-i18n="courseBarre">Training mit Elementen aus Ballett, Pilates und Fitness: Kraft, Ausdauer, Koordination und schöne Haltung.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div></article>
+        <article class="card"><img class="course-image" src="assets/courses/highheels.jpg" alt="High Heels Commercial"><div class="card-body"><h3>High Heels + Commercial</h3><p data-i18n="courseHighHeels">Moderne Dance Classes für Ausdruck, Selbstbewusstsein, Plastizität und feminine Bewegungen.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div></article>
+        <article class="card"><img class="course-image" src="assets/courses/ladydance.jpg" alt="Lady Dance"><div class="card-body"><h3>Lady Dance</h3><p data-i18n="courseLady">Tanztraining für Frauen jeden Alters: Rhythmusgefühl, Koordination, Leichtigkeit und Selbstvertrauen.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div></article>
+        <article class="card"><img class="course-image" src="assets/courses/pregnancy.jpg" alt="Pilates für Schwangere"><div class="card-body"><h3 data-i18n="pregnancyTitle">Pilates für Schwangere</h3><p data-i18n="coursePregnancy">Sichere Bewegung für werdende Mütter mit Fokus auf Haltung, Atmung, Rumpf und Beckenboden.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div></article>
+        <article class="card"><img class="course-image" src="assets/courses/kids3.jpg" alt="Neurofitness und Stretching für Kinder"><div class="card-body"><h3>Neurofitness + Stretching 3+</h3><p data-i18n="courseKids3">Spielerische Einheiten für Koordination, Gleichgewicht, Aufmerksamkeit, Motorik und Flexibilität.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div></article>
+        <article class="card"><img class="course-image" src="assets/courses/kids9.jpg" alt="Kindergruppe 9+"><div class="card-body"><h3 data-i18n="kids9Title">Kindergruppe 9+</h3><p data-i18n="courseKids9">Kurse für Kinder und Jugendliche zur Entwicklung von Kraft, Flexibilität, Koordination und Selbstvertrauen.</p><span data-i18n="priceRequest">Preise auf Anfrage</span></div></article>
+      </div>
+    </section>
+
+    <section class="section why">
+      <div class="section-head narrow">
+        <p class="eyebrow" data-i18n="whyEyebrow">Warum wir?</p>
+        <h2 data-i18n="whyTitle">Bewegung für Gesundheit, Schönheit und Lebensqualität</h2>
+      </div>
+      <div class="why-grid">
+        <div data-i18n="why1">Kleine Gruppen und individueller Ansatz</div>
+        <div data-i18n="why2">Professionelle Trainerinnen mit Erfahrung</div>
+        <div data-i18n="why3">Schonendes Training mit Blick auf Gesundheit</div>
+        <div data-i18n="why4">Kurse für Erwachsene, Kinder und Schwangere</div>
+        <div data-i18n="why5">Freundliche internationale Atmosphäre</div>
+        <div data-i18n="why6">Zentrale Lage in Leipzig</div>
       </div>
     </section>
 
@@ -111,6 +113,15 @@
       <img src="assets/banner-massage-fitness.jpg" alt="Massage und Fitness Stretching Leipzig">
     </section>
 
+    <section class="section gallery-section" id="gallery">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="galleryEyebrow">Galerie</p>
+        <h2 data-i18n="galleryTitle">Unsere Atmosphäre</h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="assets/gallery/gallery-01.jpg" alt="Kinderkurs im Studio"><img src="assets/gallery/gallery-02.jpg" alt="Stretching im Studio"><img src="assets/gallery/gallery-03.jpg" alt="Training mit Kindern"><img src="assets/gallery/gallery-04.jpg" alt="High Heels Dance"><img src="assets/gallery/gallery-05.jpg" alt="Stretching Training"><img src="assets/gallery/gallery-06.jpg" alt="Studio Spiegel"><img src="assets/gallery/gallery-07.jpg" alt="Partner Stretching"><img src="assets/gallery/gallery-08.jpg" alt="Barre Stretching"><img src="assets/gallery/gallery-09.jpg" alt="Studio Detail"><img src="assets/gallery/gallery-10.jpg" alt="Akrobatik"><img src="assets/gallery/gallery-11.jpg" alt="Stretching mit Licht"><img src="assets/gallery/gallery-12.jpg" alt="Wall Stretching"><img src="assets/gallery/gallery-13.jpg" alt="Personal Stretching"></div>
+    </section>
+
     <section class="section contact" id="contact">
       <div>
         <p class="eyebrow" data-i18n="contactEyebrow">Kontakt</p>
@@ -119,22 +130,15 @@
       </div>
       <div class="contact-box">
         <p><strong>📍</strong> Lutherstraße 14, Leipzig</p>
-        <p><strong>Fitness:</strong> +49 1762 4785836</p>
-        <p><strong>Massage:</strong> +49 1522 6130049</p>
-        <p><strong>Instagram:</strong> @fitness_stretching_leipzig</p>
+        <p><strong>Fitness:</strong> <a href="https://wa.me/4917624785836">+49 1762 4785836</a></p>
+        <p><strong>Massage:</strong> <a href="https://wa.me/4915226130049">+49 1522 6130049</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/fitness_stretching_leipzig/" target="_blank" rel="noopener">@fitness_stretching_leipzig</a></p>
       </div>
     </section>
   </main>
 
   <a class="floating-wa" href="https://wa.me/4917624785836" target="_blank" rel="noopener" aria-label="WhatsApp">☘</a>
-
-  <footer>
-    <div class="brand-logo footer-logo">
-      <span class="logo-line-1">FITNESS</span><span class="logo-line-2">STRETCHING</span><span class="logo-line-3"><i></i>LEIPZIG<i></i></span>
-    </div>
-    <p>© 2026 Fitness Stretching Leipzig · Impressum · Datenschutz</p>
-  </footer>
-
+  <footer><div class="brand-logo footer-logo"><span class="logo-line-1">FITNESS</span><span class="logo-line-2">STRETCHING</span><span class="logo-line-3"><i></i>LEIPZIG<i></i></span></div><p>© 2026 Fitness Stretching Leipzig · Impressum · Datenschutz</p></footer>
   <script src="script.js"></script>
 </body>
 </html>
