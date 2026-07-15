@@ -9,3 +9,30 @@ document.querySelectorAll('.language-switch button').forEach(btn=>btn.addEventLi
 document.querySelector('.menu-toggle').addEventListener('click',()=>document.getElementById('mainNav').classList.toggle('open'));
 document.querySelectorAll('.main-nav a').forEach(a=>a.addEventListener('click',()=>document.getElementById('mainNav').classList.remove('open')));
 setLang(localStorage.getItem('fsl_lang')||'de');
+
+// v7: cyclic sliders with mobile swipe
+document.querySelectorAll('[data-slider]').forEach(slider => {
+  const track = slider.querySelector('.slider-track');
+  const slides = Array.from(slider.querySelectorAll('.slider-slide'));
+  const counter = slider.querySelector('.slider-counter');
+  let index = 0;
+  let touchStartX = null;
+  const show = nextIndex => {
+    index = (nextIndex + slides.length) % slides.length;
+    track.style.transform = `translateX(-${index * 100}%)`;
+    counter.textContent = `${index + 1} / ${slides.length}`;
+  };
+  slider.querySelector('.slider-prev').addEventListener('click', () => show(index - 1));
+  slider.querySelector('.slider-next').addEventListener('click', () => show(index + 1));
+  track.addEventListener('touchstart', event => { touchStartX = event.changedTouches[0].clientX; }, {passive:true});
+  track.addEventListener('touchend', event => {
+    if (touchStartX === null) return;
+    const distance = event.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(distance) >= 45) show(distance < 0 ? index + 1 : index - 1);
+    touchStartX = null;
+  }, {passive:true});
+  show(0);
+});
+document.querySelectorAll('[data-placeholder-link="true"]').forEach(link => {
+  link.addEventListener('click', event => event.preventDefault());
+});
