@@ -1,0 +1,27 @@
+{
+  "domain": "fitness-stretching-leipzig.de",
+  "defaultLanguage": "de",
+  "languages": [
+    "de",
+    "uk",
+    "ru",
+    "en"
+  ],
+  "sections": [
+    "home",
+    "about",
+    "courses",
+    "prices",
+    "schedule",
+    "massage",
+    "gallery",
+    "blog",
+    "contact"
+  ],
+  "social": {
+    "instagram": "https://www.instagram.com/fitness_stretching_leipzig/",
+    "tiktok": "https://www.tiktok.com/@fitness.stretchin",
+    "facebook": "https://www.facebook.com/profile.php?id=61568380655785",
+    "telegram": ""
+  }
+}

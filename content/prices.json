@@ -1,0 +1,42 @@
+{
+  "classes": [
+    {
+      "id": "trial",
+      "price": 12
+    },
+    {
+      "id": "single",
+      "price": 15
+    },
+    {
+      "id": "4",
+      "price": 50
+    },
+    {
+      "id": "8",
+      "price": 90
+    },
+    {
+      "id": "12",
+      "price": 120
+    }
+  ],
+  "massage": [
+    {
+      "id": "back_neck",
+      "price": 35
+    },
+    {
+      "id": "classic",
+      "price": 50
+    },
+    {
+      "id": "relax",
+      "price": 50
+    },
+    {
+      "id": "full_body",
+      "price": 70
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "image": "assets/courses/stretching.jpg"
+    },
+    {
+      "id": 2,
+      "image": "assets/intro-v7.png"
+    }
+  ]
+}

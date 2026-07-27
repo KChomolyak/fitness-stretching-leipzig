@@ -1,0 +1,13 @@
+{
+  "weekly": [
+    {"day": 1, "time": "17:00", "type": "high-heels"},
+    {"day": 1, "time": "18:30", "type": "back"},
+    {"day": 2, "time": "10:00", "type": "back-barre-stretch"},
+    {"day": 2, "time": "16:00", "type": "barre"},
+    {"day": 3, "time": "19:00", "type": "front-splits"},
+    {"day": 4, "time": "", "type": "high-heels"},
+    {"day": 5, "time": "18:30", "type": "side-splits-back"},
+    {"day": 6, "time": "10:00", "type": "back"}
+  ],
+  "note": "Thursday High Heels time is awaiting confirmation"
+}
