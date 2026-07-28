@@ -114,3 +114,47 @@ const articles={
 2:{de:{t:'Stretching und seine Vorteile',b:`<p>Stretching ist ein Übungssystem zur Entwicklung von Flexibilität, Gelenkbeweglichkeit und harmonischer Körperarbeit. Es ist nicht nur Dehnen, sondern ein ganzheitliches Training, das hilft, den Körper besser wahrzunehmen und gesund zu bewegen.</p><h3>Die wichtigsten Vorteile</h3><ul><li>mehr Flexibilität und Bewegungsumfang;</li><li>Unterstützung einer gesunden Körperhaltung;</li><li>weniger Spannung in Rücken, Nacken und Schultern;</li><li>bessere Durchblutung und Regeneration;</li><li>Entspannung und Stressabbau.</li></ul><p>Regelmäßigkeit ist wichtiger als Intensität. Schon sanfte Einheiten können dem Körper mehr Leichtigkeit und natürliche Beweglichkeit geben.</p>`},uk:{t:'Стретчинг і його користь: турбота про гнучкість, здоров’я та гармонію тіла',b:`<p>Стретчинг — це комплекс вправ, спрямованих на розвиток гнучкості, покращення рухливості суглобів і гармонійну роботу всього тіла. Це не просто тренування на розтяжку, а повноцінна система, яка допомагає краще відчувати своє тіло, зміцнювати м’язи та підтримувати фізичне здоров’я.</p><p>У сучасному ритмі життя багато людей довго сидять, відчувають напруження у спині, шиї та плечах. Регулярні заняття допомагають повернути тілу свободу, легкість і природну рухливість.</p><h3>Основні переваги</h3><ul><li>покращення гнучкості та рухливості;</li><li>підтримка правильної постави;</li><li>зменшення м’язового напруження;</li><li>покращення кровообігу та відновлення;</li><li>розслаблення та зниження стресу.</li></ul><p>Регулярність важливіша за інтенсивність. Навіть м’які заняття поступово дають тілу більше свободи та гармонії.</p>`},ru:{t:'Стретчинг и его польза: забота о гибкости, здоровье и гармонии тела',b:`<p>Стретчинг — это комплекс упражнений, направленных на развитие гибкости, улучшение подвижности суставов и гармоничную работу всего тела. Это не просто тренировка на растяжку, а полноценная система, которая помогает лучше чувствовать своё тело, укреплять мышцы и поддерживать физическое здоровье.</p><p>В современном ритме жизни многие люди проводят много времени сидя, испытывают напряжение в спине, шее, плечах и ощущают скованность движений. Регулярные занятия стретчингом помогают вернуть телу свободу, лёгкость и естественную подвижность.</p><h3>Основные преимущества</h3><ul><li>улучшение гибкости и подвижности;</li><li>поддержка правильной осанки;</li><li>снижение мышечного напряжения;</li><li>улучшение кровообращения и восстановления;</li><li>расслабление и снижение уровня стресса.</li></ul><p>Регулярность важнее интенсивности. Даже мягкие занятия постепенно возвращают телу свободу и гармонию.</p>`},en:{t:'Stretching and its benefits: flexibility, health and harmony',b:`<p>Stretching is a system of exercises aimed at developing flexibility, improving joint mobility and supporting harmonious work of the whole body. It is more than simply trying to stretch farther: it helps you feel your body better and move in a healthier way.</p><p>Modern life often means long hours of sitting and tension in the back, neck and shoulders. Regular stretching helps restore freedom, ease and natural mobility.</p><h3>Main benefits</h3><ul><li>greater flexibility and mobility;</li><li>support for healthy posture;</li><li>less muscular tension;</li><li>better circulation and recovery;</li><li>relaxation and stress relief.</li></ul><p>Consistency matters more than intensity. Gentle regular practice can gradually give the body more freedom and harmony.</p>`}}};
 const modal=document.getElementById('articleModal');document.querySelectorAll('.blog-open').forEach(b=>b.onclick=()=>{const a=articles[b.dataset.article][currentLang()];document.getElementById('articleModalTitle').textContent=a.t;document.getElementById('articleModalBody').innerHTML=a.b;modal.classList.add('open');modal.setAttribute('aria-hidden','false')});document.querySelector('.article-close').onclick=()=>{modal.classList.remove('open');modal.setAttribute('aria-hidden','true')};modal.onclick=e=>{if(e.target===modal)document.querySelector('.article-close').click()};
 document.querySelectorAll('.telegram-placeholder').forEach(a=>a.onclick=e=>e.preventDefault());document.getElementById('bookingForm').onsubmit=e=>{e.preventDefault();const lang=currentLang();const text=[document.getElementById('bookingName').value,document.getElementById('bookingService').value,document.getElementById('bookingDate').value,document.getElementById('bookingContact').value,document.getElementById('bookingMessage').value].filter(Boolean).join(' | ');window.open('https://wa.me/4917624785836?text='+encodeURIComponent(text),'_blank')};
+
+// v8: mobile blog carousel controls + swipe counter
+(() => {
+  const carousel = document.querySelector('[data-blog-carousel]');
+  if (!carousel) return;
+  const track = carousel.querySelector('.blog-grid');
+  const cards = Array.from(carousel.querySelectorAll('.blog-card'));
+  const prev = carousel.querySelector('.blog-prev');
+  const next = carousel.querySelector('.blog-next');
+  const counter = carousel.querySelector('.blog-counter');
+  if (!track || cards.length === 0 || !prev || !next || !counter) return;
+
+  let index = 0;
+  const updateCounter = () => { counter.textContent = `${index + 1} / ${cards.length}`; };
+  const goTo = (newIndex) => {
+    index = (newIndex + cards.length) % cards.length;
+    cards[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+    updateCounter();
+  };
+
+  prev.addEventListener('click', () => goTo(index - 1));
+  next.addEventListener('click', () => goTo(index + 1));
+
+  let raf = 0;
+  track.addEventListener('scroll', () => {
+    cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(() => {
+      const center = track.scrollLeft + track.clientWidth / 2;
+      let nearest = 0;
+      let best = Infinity;
+      cards.forEach((card, i) => {
+        const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+        const distance = Math.abs(center - cardCenter);
+        if (distance < best) { best = distance; nearest = i; }
+      });
+      if (nearest !== index) { index = nearest; updateCounter(); }
+    });
+  }, { passive: true });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth <= 560) goTo(index);
+  });
+  updateCounter();
+})();
