@@ -86,3 +86,21 @@
   .blog-mobile-controls button{width:46px;height:46px;border-radius:50%;border:1px solid var(--olive);background:transparent;color:var(--olive);font-size:28px;line-height:1;cursor:pointer}
   .blog-counter{min-width:48px;text-align:center;color:var(--olive);font-weight:800}
 }
+
+/* v9.1 fixes */
+.language-switch{gap:7px}.language-switch button{width:38px;height:32px;padding:5px;justify-content:center}.language-switch img{width:28px;height:19px}.language-switch b{display:none}
+#massagePriceGrid{display:block!important}#massagePriceGrid>div{display:flex;justify-content:space-between;gap:20px;padding:8px 0;border-bottom:1px dashed var(--line)}
+.booking-choice-modal{position:fixed;inset:0;background:rgba(20,20,18,.68);display:none;align-items:center;justify-content:center;padding:20px;z-index:1200}.booking-choice-modal.open{display:flex}.booking-choice-dialog{position:relative;width:min(560px,100%);background:var(--cream);border-radius:18px;padding:34px;border:1px solid var(--line)}.booking-choice-dialog h3{font-family:var(--serif);font-size:30px;color:var(--olive);margin:0 40px 22px 0}.booking-choice-close{position:absolute;right:14px;top:8px;border:0;background:transparent;font-size:36px;color:var(--olive);cursor:pointer}.booking-choice-list{display:grid;gap:12px}.booking-choice-list .btn{width:100%;text-transform:none}.booking-note{font-size:13px!important;color:var(--muted);margin:16px 0 0}.booking-choice-open{min-width:230px}
+body.modal-open{overflow:hidden}.booking-choice-list .btn.disabled{opacity:.45;cursor:not-allowed;pointer-events:none}.booking-choice-dialog{box-shadow:0 24px 80px rgba(20,20,18,.22)}
+
+/* v9 latest: header width and booking form validation */
+html,body{max-width:100%;overflow-x:hidden}
+.site-header{width:100%;max-width:100%;padding-left:clamp(14px,2vw,30px);padding-right:clamp(14px,2vw,30px);gap:clamp(10px,1.3vw,20px)}
+.header-logo{font-size:clamp(25px,2.15vw,34px);min-width:clamp(190px,16vw,250px);flex:0 1 auto}
+.main-nav{gap:clamp(12px,1.35vw,22px);min-width:0;flex:1 1 auto;justify-content:flex-end}
+.main-nav a{font-size:clamp(14px,1.08vw,17px)}
+.header-cta{padding:14px clamp(14px,1.35vw,21px);font-size:clamp(13px,1.05vw,16px);flex:0 0 auto}
+.language-switch{flex:0 0 auto}
+.site-booking-submit:disabled{opacity:.45;cursor:not-allowed;filter:grayscale(.25);box-shadow:none}
+#bookingOption:disabled{opacity:.65;cursor:not-allowed}
+@media(max-width:1360px){.header-cta{display:none}.main-nav{gap:14px}.header-logo{min-width:205px}}

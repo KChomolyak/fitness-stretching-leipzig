@@ -11,9 +11,8 @@
 <meta property="og:url" content="https://fitness-stretching-leipzig.de/"/>
 <meta property="og:type" content="website"/>
 <meta content="Fitness Stretching Leipzig: Fitness, Pilates, Stretching, Dance, Kids Classes und Massage in Leipzig." name="description"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png"/>
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png"/>
 <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
@@ -23,7 +22,6 @@
 </a>
 <button aria-label="Menü öffnen" class="menu-toggle">☰</button>
 <nav class="main-nav" id="mainNav">
-<a class="active" data-i18n="navHome" href="#home">Startseite</a>
 <a data-i18n="navCourses" href="#courses">Kurse &amp; Preise</a>
 <a data-i18n="navSchedule" href="#schedule">Kalender</a>
 <a data-i18n="navMassage" href="#massage">Massage</a>
@@ -32,12 +30,12 @@
 <a data-i18n="navBlog" href="#blog">Blog</a>
 <a data-i18n="navContact" href="#contact">Kontakt</a>
 </nav>
-<a class="header-cta" data-i18n="bookTrial" href="#contact">PROBETRAINING BUCHEN</a>
+<a class="header-cta booking-trigger" data-booking-type="general" data-i18n="bookTrial" href="#">PROBETRAINING BUCHEN</a>
 <div aria-label="Sprachauswahl" class="language-switch">
-<button aria-label="Deutsch" class="active" data-lang="de"><img alt="Deutsch" src="assets/flags/de.svg"/><b>DE</b></button>
-<button aria-label="Українська" data-lang="uk"><img alt="Українська" src="assets/flags/ua.svg"/><b>UA</b></button>
-<button aria-label="Русский" data-lang="ru"><img alt="Русский" src="assets/flags/ru.svg"/><b>RU</b></button>
-<button aria-label="English" data-lang="en"><img alt="English" src="assets/flags/gb.svg"/><b>EN</b></button>
+<button aria-label="Deutsch" class="active" data-lang="de" title="Deutsch"><img alt="Deutsch" src="assets/flags/de.svg"/></button>
+<button aria-label="Українська" data-lang="uk" title="Українська"><img alt="Українська" src="assets/flags/ua.svg"/></button>
+<button aria-label="Русский" data-lang="ru" title="Русский"><img alt="Русский" src="assets/flags/ru.svg"/></button>
+<button aria-label="English" data-lang="en" title="English"><img alt="English" src="assets/flags/gb.svg"/></button>
 </div>
 </header>
 <main>
@@ -51,7 +49,7 @@
 <div class="divider"></div>
 <p class="address">📍 <span data-i18n="address">Lutherstraße 14, Leipzig</span></p>
 <div class="hero-actions">
-<a class="btn primary" data-i18n="bookTrial" href="#contact">PROBETRAINING BUCHEN</a>
+<a class="btn primary booking-trigger" data-booking-type="general" data-i18n="bookTrial" href="#">PROBETRAINING BUCHEN</a>
 <a class="btn secondary" href="https://wa.me/4917624785836" rel="noopener" target="_blank">WhatsApp</a>
 </div>
 </div>
@@ -94,13 +92,7 @@
 
 <section class="section prices-section" id="prices">
 <div class="section-head"><p class="eyebrow" data-i18n="pricesEyebrow">Preise</p><h2 data-i18n="pricesTitle">Flexible Tarife für Ihr Training</h2></div>
-<div class="price-grid">
-<article class="price-card"><h3 data-i18n="trial">Probetraining</h3><strong>12 €</strong></article>
-<article class="price-card"><h3 data-i18n="single">Einzelstunde</h3><strong>15 €</strong></article>
-<article class="price-card"><h3 data-i18n="fourClasses">4 Einheiten</h3><strong>50 €</strong></article>
-<article class="price-card"><h3 data-i18n="eightClasses">8 Einheiten</h3><strong>90 €</strong></article>
-<article class="price-card featured"><span data-i18n="bestValue">Beliebt</span><h3 data-i18n="twelveClasses">12 Einheiten</h3><strong>120 €</strong><small data-i18n="tenPerClass">10 € pro Einheit</small></article>
-</div>
+<div class="price-grid" id="fitnessPriceGrid"></div>
 </section>
 <section class="section schedule-section muted" id="schedule">
 <div class="section-head"><p class="eyebrow" data-i18n="scheduleEyebrow">Kurskalender</p><h2 data-i18n="scheduleTitle">Regelmäßige Kurse</h2><p data-i18n="scheduleHint">Wählen Sie einen Termin und schreiben Sie uns zur Buchung.</p></div>
@@ -127,8 +119,8 @@
 <p class="eyebrow">Massage Leipzig</p>
 <h2 data-i18n="massageTitle">Entspannung. Wohlbefinden. Neue Energie.</h2>
 <p data-i18n="massageText">Klassische Massage, Entspannungsmassage, Rücken- &amp; Nackenmassage und Ganzkörpermassage.</p>
-<div class="massage-price-list"><h3 data-i18n="massagePrices">Massagepreise</h3><div><span data-i18n="massageBack">Rücken & Nacken</span><b>35 €</b></div><div><span data-i18n="massageClassic">Klassische Massage</span><b>50 €</b></div><div><span data-i18n="massageRelax">Entspannungsmassage</span><b>50 €</b></div><div><span data-i18n="massageFull">Ganzkörpermassage</span><b>70 €</b></div><p class="price-note" data-i18n="massagePriceNote">Konkrete Dauer und Behandlung werden individuell abgestimmt.</p></div>
-<a class="btn primary" data-i18n="massageBook" href="https://wa.me/4915226130049" rel="noopener" target="_blank">Massage Termin buchen</a>
+<div class="massage-price-list"><h3 data-i18n="massagePrices">Massagepreise</h3><div id="massagePriceGrid"></div><p class="price-note" data-i18n="massagePriceNote">Konkrete Dauer und Behandlung werden individuell abgestimmt.</p></div>
+<a class="btn primary booking-trigger" data-booking-type="massage" data-i18n="massageBook" href="#">Massage Termin buchen</a>
 </div>
 <div class="massage-media"><div class="photo-slider massage-slider" data-slider="massage"><div class="slider-viewport"><div class="slider-track"><div class="slider-slide"><img alt="Massage und Fitness Stretching Leipzig" loading="lazy" src="assets/banner-massage-fitness.jpg"/></div><div class="slider-slide"><img alt="Sportmassage" loading="lazy" src="assets/massage/massage-01.jpg"/></div><div class="slider-slide"><img alt="Bambusmassage" loading="lazy" src="assets/massage/massage-02.jpg"/></div><div class="slider-slide"><img alt="Schröpfgläser" loading="lazy" src="assets/massage/massage-03.jpg"/></div><div class="slider-slide"><img alt="Apparative Massage" loading="lazy" src="assets/massage/massage-04.jpg"/></div><div class="slider-slide"><img alt="Klassische Massage" loading="lazy" src="assets/massage/massage-05.jpg"/></div><div class="slider-slide"><img alt="Schröpfmassage" loading="lazy" src="assets/massage/massage-06.jpg"/></div><div class="slider-slide"><img alt="Schröpftherapie" loading="lazy" src="assets/massage/massage-07.jpg"/></div><div class="slider-slide"><img alt="Schröpftherapie Rücken" loading="lazy" src="assets/massage/massage-08.jpg"/></div><div class="slider-slide"><img alt="Fußmassage" loading="lazy" src="assets/massage/massage-09.jpg"/></div><div class="slider-slide"><img alt="Bambusmassage Füße" loading="lazy" src="assets/massage/massage-10.jpg"/></div><div class="slider-slide"><img alt="Massage unterer Rücken" loading="lazy" src="assets/massage/massage-11.jpg"/></div><div class="slider-slide"><img alt="Nackenmassage" loading="lazy" src="assets/massage/massage-12.jpg"/></div><div class="slider-slide"><img alt="Massage Raum" loading="lazy" src="assets/massage/massage-13.jpg"/></div></div></div><button aria-label="Vorheriges Foto" class="slider-arrow slider-prev" type="button">‹</button><button aria-label="Nächstes Foto" class="slider-arrow slider-next" type="button">›</button><div aria-live="polite" class="slider-counter">1 / 14</div></div></div>
 </section>
@@ -143,13 +135,10 @@
 <section class="section blog-section muted" id="blog">
 <div class="section-head"><p class="eyebrow" data-i18n="blogEyebrow">Blog</p><h2 data-i18n="blogTitle">Wissen, Inspiration und Bewegung</h2></div>
 <div class="blog-carousel" data-blog-carousel>
-<div class="blog-grid">
-<article class="blog-card"><img src="assets/courses/stretching.jpg" alt="Stretching" loading="lazy"><div><h3 data-i18n="article1Title">Stretching bedeutet nicht nur Spagat</h3><p data-i18n="article1Excerpt">Warum regelmäßiges Stretching dem ganzen Körper hilft.</p><button class="btn outline blog-open" data-article="1" data-i18n="readMore">Weiterlesen</button></div></article>
-<article class="blog-card"><img src="assets/intro-v7.png" alt="Vorteile von Stretching" loading="lazy"><div><h3 data-i18n="article2Title">Stretching und seine Vorteile</h3><p data-i18n="article2Excerpt">Flexibilität, Gesundheit und Harmonie für den Körper.</p><button class="btn outline blog-open" data-article="2" data-i18n="readMore">Weiterlesen</button></div></article>
-</div>
+<div class="blog-grid" id="blogGrid"></div>
 <div class="blog-mobile-controls" aria-label="Blog navigation">
 <button class="blog-prev" type="button" aria-label="Previous article">‹</button>
-<span class="blog-counter" aria-live="polite">1 / 2</span>
+<span class="blog-counter" aria-live="polite">0 / 0</span>
 <button class="blog-next" type="button" aria-label="Next article">›</button>
 </div>
 </div>
@@ -159,9 +148,17 @@
 <div>
 <p class="eyebrow" data-i18n="contactEyebrow">Kontakt</p>
 <h2 data-i18n="contactTitle">Termin vereinbaren</h2>
-<p data-i18n="contactText">Schreiben Sie uns direkt über WhatsApp oder Instagram. Wir melden uns schnellstmöglich zurück.</p>
+<p data-i18n="contactText">Die Online-Buchung erfolgt über unseren Telegram-Bot. Für allgemeine Fragen erreichen Sie uns auch telefonisch oder über unsere sozialen Netzwerke.</p>
 </div>
-<form class="booking-form" id="bookingForm"><label><span data-i18n="formName">Name</span><input id="bookingName" required></label><label><span data-i18n="formService">Service</span><select id="bookingService"><option data-i18n="serviceClass">Training</option><option data-i18n="serviceMassage">Massage</option></select></label><label><span data-i18n="formDate">Wunschtermin</span><input id="bookingDate" type="date"></label><label><span data-i18n="formContact">Telefon / Messenger</span><input id="bookingContact" required></label><label class="wide"><span data-i18n="formMessage">Nachricht</span><textarea id="bookingMessage" rows="4"></textarea></label><div class="booking-actions wide"><button class="btn primary" type="submit" data-i18n="sendWhatsApp">Über WhatsApp senden</button><a class="btn secondary telegram-placeholder" href="#" data-i18n="sendTelegram">Telegram</a></div></form>
+<div class="booking-form" id="bookingForm" data-mode="training">
+<label><span data-i18n="formName">Name</span><input id="bookingName" type="text" autocomplete="name" required></label>
+<label><span data-i18n="formDate">Datum</span><input id="bookingDate" type="date" required></label>
+<label><span id="bookingOptionLabel">Training</span><select id="bookingOption" required disabled></select></label>
+<label><span data-i18n="formContact">Kontakttelefon</span><input id="bookingContact" type="tel" autocomplete="tel" required></label>
+<label class="wide"><span data-i18n="formMessage">Nachricht</span><textarea id="bookingMessage" rows="4"></textarea></label>
+<div class="booking-actions wide"><button class="btn primary site-booking-submit" type="button" data-i18n="bookNow" disabled>BUCHEN</button></div>
+</div>
+<div class="booking-choice-modal" id="bookingChoiceModal" aria-hidden="true"><div class="booking-choice-dialog"><button class="booking-choice-close" type="button" aria-label="Schließen">×</button><h3 data-i18n="bookingChoose">Buchungsart wählen</h3><div class="booking-choice-list"><button type="button" class="btn outline" id="bookOnSite" data-i18n="bookingSite">Auf der Website (Bestätigung erforderlich)</button><a class="btn outline" id="bookWhatsApp" href="#" data-i18n="bookingWhatsApp">WhatsApp</a><a class="btn outline" id="bookTelegram" href="#" data-i18n="bookingTelegram">Telegram</a></div><p class="booking-note" data-i18n="bookingChoiceNote">WhatsApp und Telegram werden – je nach Gerät – in der App oder im Browser geöffnet.</p></div></div>
 <div class="contact-box">
 <p><strong>📍</strong> Lutherstraße 14, Leipzig</p>
 <p><strong>Fitness:</strong> <a href="https://wa.me/4917624785836">+49 1762 4785836</a></p>
@@ -170,7 +167,7 @@
 </div>
 </section>
 </main>
-<footer><div class="brand-logo footer-logo"><span class="logo-line-1">FITNESS</span><span class="logo-line-2">STRETCHING</span><span class="logo-line-3"><i></i>LEIPZIG<i></i></span></div><div aria-label="Soziale Netzwerke" class="social-placeholders"><a class="social-placeholder" href="https://www.instagram.com/fitness_stretching_leipzig/" target="_blank" rel="noopener"><img alt="Instagram" src="assets/social/instagram.svg"></a><a class="social-placeholder" href="https://www.tiktok.com/@fitness.stretchin" target="_blank" rel="noopener"><img alt="TikTok" src="assets/social/tiktok.svg"></a><a class="social-placeholder" href="https://www.facebook.com/profile.php?id=61568380655785" target="_blank" rel="noopener"><span style="font-weight:900;font-size:22px">f</span></a><a class="social-placeholder telegram-placeholder" href="#"><img alt="Telegram" src="assets/social/telegram.svg"></a></div><nav aria-label="Rechtliche Hinweise" class="footer-legal"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></nav><p>© 2026 Fitness Stretching Leipzig</p></footer>
+<footer><div class="brand-logo footer-logo"><span class="logo-line-1">FITNESS</span><span class="logo-line-2">STRETCHING</span><span class="logo-line-3"><i></i>LEIPZIG<i></i></span></div><div aria-label="Soziale Netzwerke" class="social-placeholders"><a class="social-placeholder" href="https://www.instagram.com/fitness_stretching_leipzig/" target="_blank" rel="noopener noreferrer"><img alt="Instagram" src="assets/social/instagram.svg"></a><a class="social-placeholder" href="https://www.tiktok.com/@fitness.stretchin" target="_blank" rel="noopener noreferrer"><img alt="TikTok" src="assets/social/tiktok.svg"></a><a class="social-placeholder" href="https://www.facebook.com/profile.php?id=61568380655785" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><span style="font-weight:900;font-size:22px">f</span></a></div><nav aria-label="Rechtliche Hinweise" class="footer-legal"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></nav><p>© 2026 Fitness Stretching Leipzig</p></footer>
 <script src="script.js"></script>
 </body>
 </html>

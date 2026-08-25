@@ -1,42 +1,466 @@
 {
-  "classes": [
+  "services": [
+    {
+      "id": "fitness_training",
+      "category": "fitness",
+      "pricingType": "packages",
+      "visible": true,
+      "order": 1,
+      "showInPriceList": true,
+      "prices": [
+        {
+          "id": "fitness_1",
+          "quantity": 1,
+          "totalPrice": 15,
+          "unitPrice": 15
+        },
+        {
+          "id": "fitness_4",
+          "quantity": 4,
+          "totalPrice": 50,
+          "unitPrice": 12.5
+        },
+        {
+          "id": "fitness_8",
+          "quantity": 8,
+          "totalPrice": 90,
+          "unitPrice": 11.25
+        },
+        {
+          "id": "fitness_12",
+          "quantity": 12,
+          "totalPrice": 120,
+          "unitPrice": 10
+        }
+      ],
+      "de": {
+        "title": "Fitnesskurse"
+      },
+      "uk": {
+        "title": "Фітнес-заняття"
+      },
+      "ru": {
+        "title": "Фитнес-занятия"
+      },
+      "en": {
+        "title": "Fitness classes"
+      }
+    },
+    {
+      "id": "high-heels",
+      "category": "fitness",
+      "pricingType": "packages",
+      "visible": true,
+      "order": 10,
+      "showInPriceList": false,
+      "prices": [
+        {
+          "id": "high-heels_1",
+          "quantity": 1,
+          "totalPrice": 15,
+          "unitPrice": 15
+        },
+        {
+          "id": "high-heels_4",
+          "quantity": 4,
+          "totalPrice": 50,
+          "unitPrice": 12.5
+        },
+        {
+          "id": "high-heels_8",
+          "quantity": 8,
+          "totalPrice": 90,
+          "unitPrice": 11.25
+        },
+        {
+          "id": "high-heels_12",
+          "quantity": 12,
+          "totalPrice": 120,
+          "unitPrice": 10
+        }
+      ],
+      "de": {
+        "title": "High Heels (Dance)"
+      },
+      "uk": {
+        "title": "High Heels (танці)"
+      },
+      "ru": {
+        "title": "High Heels (танцы)"
+      },
+      "en": {
+        "title": "High Heels (Dance)"
+      }
+    },
+    {
+      "id": "back",
+      "category": "fitness",
+      "pricingType": "packages",
+      "visible": true,
+      "order": 11,
+      "showInPriceList": false,
+      "prices": [
+        {
+          "id": "back_1",
+          "quantity": 1,
+          "totalPrice": 15,
+          "unitPrice": 15
+        },
+        {
+          "id": "back_4",
+          "quantity": 4,
+          "totalPrice": 50,
+          "unitPrice": 12.5
+        },
+        {
+          "id": "back_8",
+          "quantity": 8,
+          "totalPrice": 90,
+          "unitPrice": 11.25
+        },
+        {
+          "id": "back_12",
+          "quantity": 12,
+          "totalPrice": 120,
+          "unitPrice": 10
+        }
+      ],
+      "de": {
+        "title": "Fitness Stretching: Rücken"
+      },
+      "uk": {
+        "title": "Fitness Stretching: спина"
+      },
+      "ru": {
+        "title": "Fitness Stretching: спина"
+      },
+      "en": {
+        "title": "Fitness Stretching: Back"
+      }
+    },
+    {
+      "id": "back-barre-stretch",
+      "category": "fitness",
+      "pricingType": "packages",
+      "visible": true,
+      "order": 12,
+      "showInPriceList": false,
+      "prices": [
+        {
+          "id": "back-barre-stretch_1",
+          "quantity": 1,
+          "totalPrice": 15,
+          "unitPrice": 15
+        },
+        {
+          "id": "back-barre-stretch_4",
+          "quantity": 4,
+          "totalPrice": 50,
+          "unitPrice": 12.5
+        },
+        {
+          "id": "back-barre-stretch_8",
+          "quantity": 8,
+          "totalPrice": 90,
+          "unitPrice": 11.25
+        },
+        {
+          "id": "back-barre-stretch_12",
+          "quantity": 12,
+          "totalPrice": 120,
+          "unitPrice": 10
+        }
+      ],
+      "de": {
+        "title": "Rücken + Beinstretching an der Ballettstange"
+      },
+      "uk": {
+        "title": "Спина + розтяжка ніг біля станка"
+      },
+      "ru": {
+        "title": "Спина + растяжка ног у станка"
+      },
+      "en": {
+        "title": "Back + leg stretching at the barre"
+      }
+    },
+    {
+      "id": "barre",
+      "category": "fitness",
+      "pricingType": "packages",
+      "visible": true,
+      "order": 13,
+      "showInPriceList": false,
+      "prices": [
+        {
+          "id": "barre_1",
+          "quantity": 1,
+          "totalPrice": 15,
+          "unitPrice": 15
+        },
+        {
+          "id": "barre_4",
+          "quantity": 4,
+          "totalPrice": 50,
+          "unitPrice": 12.5
+        },
+        {
+          "id": "barre_8",
+          "quantity": 8,
+          "totalPrice": 90,
+          "unitPrice": 11.25
+        },
+        {
+          "id": "barre_12",
+          "quantity": 12,
+          "totalPrice": 120,
+          "unitPrice": 10
+        }
+      ],
+      "de": {
+        "title": "Barre"
+      },
+      "uk": {
+        "title": "Barre"
+      },
+      "ru": {
+        "title": "Barre"
+      },
+      "en": {
+        "title": "Barre"
+      }
+    },
+    {
+      "id": "front-splits",
+      "category": "fitness",
+      "pricingType": "packages",
+      "visible": true,
+      "order": 14,
+      "showInPriceList": false,
+      "prices": [
+        {
+          "id": "front-splits_1",
+          "quantity": 1,
+          "totalPrice": 15,
+          "unitPrice": 15
+        },
+        {
+          "id": "front-splits_4",
+          "quantity": 4,
+          "totalPrice": 50,
+          "unitPrice": 12.5
+        },
+        {
+          "id": "front-splits_8",
+          "quantity": 8,
+          "totalPrice": 90,
+          "unitPrice": 11.25
+        },
+        {
+          "id": "front-splits_12",
+          "quantity": 12,
+          "totalPrice": 120,
+          "unitPrice": 10
+        }
+      ],
+      "de": {
+        "title": "Längsspagat"
+      },
+      "uk": {
+        "title": "Поздовжній шпагат"
+      },
+      "ru": {
+        "title": "Продольный шпагат"
+      },
+      "en": {
+        "title": "Front splits"
+      }
+    },
+    {
+      "id": "side-splits-back",
+      "category": "fitness",
+      "pricingType": "packages",
+      "visible": true,
+      "order": 15,
+      "showInPriceList": false,
+      "prices": [
+        {
+          "id": "side-splits-back_1",
+          "quantity": 1,
+          "totalPrice": 15,
+          "unitPrice": 15
+        },
+        {
+          "id": "side-splits-back_4",
+          "quantity": 4,
+          "totalPrice": 50,
+          "unitPrice": 12.5
+        },
+        {
+          "id": "side-splits-back_8",
+          "quantity": 8,
+          "totalPrice": 90,
+          "unitPrice": 11.25
+        },
+        {
+          "id": "side-splits-back_12",
+          "quantity": 12,
+          "totalPrice": 120,
+          "unitPrice": 10
+        }
+      ],
+      "de": {
+        "title": "Querspagat + Rücken"
+      },
+      "uk": {
+        "title": "Поперечний шпагат + спина"
+      },
+      "ru": {
+        "title": "Поперечный шпагат + спина"
+      },
+      "en": {
+        "title": "Side splits + back"
+      }
+    },
     {
       "id": "trial",
-      "price": 12
+      "category": "fitness",
+      "pricingType": "fixed",
+      "visible": true,
+      "order": 2,
+      "showInPriceList": true,
+      "prices": [
+        {
+          "id": "trial_1",
+          "quantity": 1,
+          "totalPrice": 12,
+          "unitPrice": 12
+        }
+      ],
+      "de": {
+        "title": "Probetraining"
+      },
+      "uk": {
+        "title": "Пробне заняття"
+      },
+      "ru": {
+        "title": "Пробное занятие"
+      },
+      "en": {
+        "title": "Trial class"
+      }
     },
-    {
-      "id": "single",
-      "price": 15
-    },
-    {
-      "id": "4",
-      "price": 50
-    },
-    {
-      "id": "8",
-      "price": 90
-    },
-    {
-      "id": "12",
-      "price": 120
-    }
-  ],
-  "massage": [
     {
       "id": "back_neck",
-      "price": 35
+      "category": "massage",
+      "pricingType": "fixed",
+      "visible": true,
+      "order": 1,
+      "showInPriceList": true,
+      "prices": [
+        {
+          "id": "back_neck_1",
+          "quantity": 1,
+          "totalPrice": 35,
+          "unitPrice": 35
+        }
+      ],
+      "de": {
+        "title": "Rücken & Nacken"
+      },
+      "uk": {
+        "title": "Спина та шия"
+      },
+      "ru": {
+        "title": "Спина и шея"
+      },
+      "en": {
+        "title": "Back & neck"
+      }
     },
     {
       "id": "classic",
-      "price": 50
+      "category": "massage",
+      "pricingType": "fixed",
+      "visible": true,
+      "order": 2,
+      "showInPriceList": true,
+      "prices": [
+        {
+          "id": "classic_1",
+          "quantity": 1,
+          "totalPrice": 50,
+          "unitPrice": 50
+        }
+      ],
+      "de": {
+        "title": "Klassische Massage"
+      },
+      "uk": {
+        "title": "Класичний масаж"
+      },
+      "ru": {
+        "title": "Классический массаж"
+      },
+      "en": {
+        "title": "Classic massage"
+      }
     },
     {
       "id": "relax",
-      "price": 50
+      "category": "massage",
+      "pricingType": "fixed",
+      "visible": true,
+      "order": 3,
+      "showInPriceList": true,
+      "prices": [
+        {
+          "id": "relax_1",
+          "quantity": 1,
+          "totalPrice": 50,
+          "unitPrice": 50
+        }
+      ],
+      "de": {
+        "title": "Entspannungsmassage"
+      },
+      "uk": {
+        "title": "Розслаблювальний масаж"
+      },
+      "ru": {
+        "title": "Расслабляющий массаж"
+      },
+      "en": {
+        "title": "Relaxation massage"
+      }
     },
     {
       "id": "full_body",
-      "price": 70
+      "category": "massage",
+      "pricingType": "fixed",
+      "visible": true,
+      "order": 4,
+      "showInPriceList": true,
+      "prices": [
+        {
+          "id": "full_body_1",
+          "quantity": 1,
+          "totalPrice": 70,
+          "unitPrice": 70
+        }
+      ],
+      "de": {
+        "title": "Ganzkörpermassage"
+      },
+      "uk": {
+        "title": "Масаж усього тіла"
+      },
+      "ru": {
+        "title": "Массаж всего тела"
+      },
+      "en": {
+        "title": "Full-body massage"
+      }
     }
   ]
 }

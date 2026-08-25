@@ -1,0 +1,85 @@
+{
+  "regularEvents": [
+    {
+      "id": "regular_high_heels_mon_1700",
+      "serviceId": "high-heels",
+      "weekday": 1,
+      "time": "17:00",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    },
+    {
+      "id": "regular_back_mon_1830",
+      "serviceId": "back",
+      "weekday": 1,
+      "time": "18:30",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    },
+    {
+      "id": "regular_back_barre_tue_1000",
+      "serviceId": "back-barre-stretch",
+      "weekday": 2,
+      "time": "10:00",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    },
+    {
+      "id": "regular_barre_tue_1600",
+      "serviceId": "barre",
+      "weekday": 2,
+      "time": "16:00",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    },
+    {
+      "id": "regular_front_splits_wed_1900",
+      "serviceId": "front-splits",
+      "weekday": 3,
+      "time": "19:00",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    },
+    {
+      "id": "regular_high_heels_thu",
+      "serviceId": "high-heels",
+      "weekday": 4,
+      "time": "",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true,
+      "note": "Time awaiting confirmation"
+    },
+    {
+      "id": "regular_side_splits_back_fri_1830",
+      "serviceId": "side-splits-back",
+      "weekday": 5,
+      "time": "18:30",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    },
+    {
+      "id": "regular_back_sat_1000",
+      "serviceId": "back",
+      "weekday": 6,
+      "time": "10:00",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    }
+  ]
+}
