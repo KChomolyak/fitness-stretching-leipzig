@@ -1038,7 +1038,7 @@
       "order": 15,
       "showInPriceList": true,
       "botEditable": true,
-      "duration": 999,
+      "duration": null,
       "de": {
         "title": "Test de",
         "note": ""
