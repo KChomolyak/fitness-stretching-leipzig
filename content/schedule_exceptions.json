@@ -1,13 +1,3 @@
 {
-  "exceptions": [
-    {
-      "id": "once_1e149e66b3",
-      "type": "add",
-      "date": "2026-08-30",
-      "serviceId": "high-heels",
-      "time": "08:00",
-      "duration": 60,
-      "visible": true
-    }
-  ]
+  "exceptions": []
 }
