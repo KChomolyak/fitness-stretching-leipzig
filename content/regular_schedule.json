@@ -1,16 +1,6 @@
 {
   "regularEvents": [
     {
-      "id": "regular_high_heels_mon_1700",
-      "serviceId": "high-heels",
-      "weekday": 1,
-      "time": "17:00",
-      "duration": 60,
-      "startDate": "2026-08-01",
-      "endDate": null,
-      "visible": true
-    },
-    {
       "id": "regular_back_mon_1830",
       "serviceId": "back",
       "weekday": 1,
@@ -95,6 +85,16 @@
       "serviceId": "back",
       "weekday": 6,
       "time": "10:00",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    },
+    {
+      "id": "regular_high_heels_mon_1700",
+      "serviceId": "high-heels",
+      "weekday": 7,
+      "time": "16:00",
       "duration": 60,
       "startDate": "2026-08-01",
       "endDate": null,
