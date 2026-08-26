@@ -41,6 +41,26 @@
       "visible": true
     },
     {
+      "id": "regular_high_heels_commercial_tue_1900",
+      "serviceId": "high-heels-commercial",
+      "weekday": 2,
+      "time": "19:00",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    },
+    {
+      "id": "regular_pilates_sculpt_mobility_wed_1730",
+      "serviceId": "pilates-sculpt-mobility",
+      "weekday": 3,
+      "time": "17:30",
+      "duration": 60,
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "visible": true
+    },
+    {
       "id": "regular_front_splits_wed_1900",
       "serviceId": "front-splits",
       "weekday": 3,
@@ -51,15 +71,14 @@
       "visible": true
     },
     {
-      "id": "regular_high_heels_thu",
-      "serviceId": "high-heels",
+      "id": "regular_high_heels_commercial_thu_1900",
+      "serviceId": "high-heels-commercial",
       "weekday": 4,
-      "time": "",
+      "time": "19:00",
       "duration": 60,
       "startDate": "2026-08-01",
       "endDate": null,
-      "visible": true,
-      "note": "Time awaiting confirmation"
+      "visible": true
     },
     {
       "id": "regular_side_splits_back_fri_1830",

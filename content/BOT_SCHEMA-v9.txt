@@ -1,0 +1,33 @@
+BOT JSON COMPATIBILITY (v9)
+
+General
+- Website design/layout is independent from bot data editing.
+- The bot should edit only records with botEditable != false.
+- Localized content keys: en, de, ru, uk.
+
+content/prices.json
+Fitness editable services:
+- id, category="fitness", pricingType="packages", visible, order, showInPriceList=false, botEditable=true
+- en/de/ru/uk.title
+- prices: trial, single, pack_4, pack_8, pack_12
+- each price: id, type, quantity, totalPrice, unitPrice
+- fitness_training and trial are display-helper entries and botEditable=false.
+
+Massage editable services:
+- id, category="massage", pricingType="fixed", visible, order, showInPriceList=true, botEditable=true
+- duration: integer minutes or null
+- en/de/ru/uk.title
+- en/de/ru/uk.note (may be empty)
+- prices: one item with type="fixed", quantity=1, totalPrice, unitPrice
+
+content/regular_schedule.json
+- regularEvents[]: id, serviceId, weekday (1=Mon..7=Sun), time HH:MM, duration, startDate, endDate, visible
+- serviceId must reference an editable fitness service id.
+
+content/schedule_exceptions.json
+- exceptions[] for one-time/date-specific changes.
+
+content/blog.json
+- articles[]: id, image, visible, order
+- en/de/ru/uk: title, excerpt, content
+- Bot can collect title + content; excerpt can be retained/generated separately later.
