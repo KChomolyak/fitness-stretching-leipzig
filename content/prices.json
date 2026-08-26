@@ -1029,6 +1029,41 @@
         "note": ""
       },
       "botEditable": true
+    },
+    {
+      "id": "massage-test-uk",
+      "category": "massage",
+      "pricingType": "fixed",
+      "visible": true,
+      "order": 15,
+      "showInPriceList": true,
+      "botEditable": true,
+      "duration": 999,
+      "de": {
+        "title": "Test de",
+        "note": ""
+      },
+      "uk": {
+        "title": "Test ua",
+        "note": ""
+      },
+      "ru": {
+        "title": "Test ru",
+        "note": ""
+      },
+      "en": {
+        "title": "Test uk",
+        "note": ""
+      },
+      "prices": [
+        {
+          "id": "massage-test-uk_fixed",
+          "type": "fixed",
+          "quantity": 1,
+          "totalPrice": 999.0,
+          "unitPrice": 999.0
+        }
+      ]
     }
   ]
 }
