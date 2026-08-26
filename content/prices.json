@@ -1029,41 +1029,6 @@
         "note": ""
       },
       "botEditable": true
-    },
-    {
-      "id": "massage-test-en",
-      "category": "massage",
-      "pricingType": "fixed",
-      "visible": true,
-      "order": 15,
-      "showInPriceList": true,
-      "botEditable": true,
-      "duration": null,
-      "en": {
-        "title": "Test en",
-        "note": ""
-      },
-      "de": {
-        "title": "Test de",
-        "note": ""
-      },
-      "ru": {
-        "title": "Test ru",
-        "note": ""
-      },
-      "uk": {
-        "title": "Test ua",
-        "note": ""
-      },
-      "prices": [
-        {
-          "id": "massage-test-en_fixed",
-          "type": "fixed",
-          "quantity": 1,
-          "totalPrice": 999.0,
-          "unitPrice": 999.0
-        }
-      ]
     }
   ]
 }
