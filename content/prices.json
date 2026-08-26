@@ -763,8 +763,8 @@
           "id": "children-massage_fixed",
           "type": "fixed",
           "quantity": 1,
-          "totalPrice": 45,
-          "unitPrice": 45
+          "totalPrice": 45.0,
+          "unitPrice": 45.0
         }
       ],
       "de": {
