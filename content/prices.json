@@ -1038,7 +1038,7 @@
       "order": 15,
       "showInPriceList": true,
       "botEditable": true,
-      "duration": 45,
+      "duration": null,
       "en": {
         "title": "Test en",
         "note": ""
