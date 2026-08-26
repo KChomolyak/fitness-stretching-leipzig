@@ -51,6 +51,32 @@
         "excerpt": "Flexibility, health and harmony for the body.",
         "content": "<p>Stretching is a system of exercises aimed at developing flexibility, improving joint mobility and supporting harmonious work of the whole body. It is more than simply trying to stretch farther: it helps you feel your body better and move in a healthier way.</p><p>Modern life often means long hours of sitting and tension in the back, neck and shoulders. Regular stretching helps restore freedom, ease and natural mobility.</p><h3>Main benefits</h3><ul><li>greater flexibility and mobility;</li><li>support for healthy posture;</li><li>less muscular tension;</li><li>better circulation and recovery;</li><li>relaxation and stress relief.</li></ul><p>Consistency matters more than intensity. Gentle regular practice can gradually give the body more freedom and harmony.</p>"
       }
+    },
+    {
+      "id": 3,
+      "visible": true,
+      "order": 3,
+      "image": "assets/blog/article-3-9e2e879c.jpg",
+      "en": {
+        "title": "Test-eng",
+        "excerpt": "Du FFH v Du b GM GM j Gib",
+        "content": "<p>Du FFH v<br>Du b<br>GM<br>GM j<br>Gib</p>"
+      },
+      "de": {
+        "title": "Test-de",
+        "excerpt": "Fun",
+        "content": "<p>Fun</p>"
+      },
+      "ru": {
+        "title": "Test-ru",
+        "excerpt": "The",
+        "content": "<p>The</p>"
+      },
+      "uk": {
+        "title": "Test-us",
+        "excerpt": "Hddjf",
+        "content": "<p>Hddjf</p>"
+      }
     }
   ]
 }
