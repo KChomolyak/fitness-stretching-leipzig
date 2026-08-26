@@ -95,8 +95,8 @@
           "id": "back_single",
           "type": "single",
           "quantity": 1,
-          "totalPrice": 15.0,
-          "unitPrice": 15.0
+          "totalPrice": 16.0,
+          "unitPrice": 16.0
         },
         {
           "id": "back_pack_4",
