@@ -9,25 +9,25 @@
       "showInPriceList": true,
       "prices": [
         {
-          "id": "fitness_1",
+          "id": "fitness_training_1",
           "quantity": 1,
           "totalPrice": 15,
           "unitPrice": 15
         },
         {
-          "id": "fitness_4",
+          "id": "fitness_training_4",
           "quantity": 4,
           "totalPrice": 50,
           "unitPrice": 12.5
         },
         {
-          "id": "fitness_8",
+          "id": "fitness_training_8",
           "quantity": 8,
           "totalPrice": 90,
           "unitPrice": 11.25
         },
         {
-          "id": "fitness_12",
+          "id": "fitness_training_12",
           "quantity": 12,
           "totalPrice": 120,
           "unitPrice": 10
@@ -44,8 +44,7 @@
       },
       "en": {
         "title": "Fitness classes"
-      },
-      "botEditable": false
+      }
     },
     {
       "id": "trial",
@@ -73,51 +72,39 @@
       },
       "en": {
         "title": "Trial class"
-      },
-      "botEditable": false
+      }
     },
     {
       "id": "back",
       "category": "fitness",
       "pricingType": "packages",
       "visible": true,
-      "order": 1,
+      "order": 10,
       "showInPriceList": false,
       "prices": [
         {
-          "id": "back_trial",
-          "type": "trial",
+          "id": "back_1",
           "quantity": 1,
-          "totalPrice": 12.0,
-          "unitPrice": 12.0
+          "totalPrice": 15,
+          "unitPrice": 15
         },
         {
-          "id": "back_single",
-          "type": "single",
-          "quantity": 1,
-          "totalPrice": 15.0,
-          "unitPrice": 15.0
-        },
-        {
-          "id": "back_pack_4",
-          "type": "pack_4",
+          "id": "back_4",
           "quantity": 4,
-          "totalPrice": 50.0,
+          "totalPrice": 50,
           "unitPrice": 12.5
         },
         {
-          "id": "back_pack_8",
-          "type": "pack_8",
+          "id": "back_8",
           "quantity": 8,
-          "totalPrice": 90.0,
+          "totalPrice": 90,
           "unitPrice": 11.25
         },
         {
-          "id": "back_pack_12",
-          "type": "pack_12",
+          "id": "back_12",
           "quantity": 12,
-          "totalPrice": 120.0,
-          "unitPrice": 10.0
+          "totalPrice": 120,
+          "unitPrice": 10
         }
       ],
       "de": {
@@ -131,51 +118,39 @@
       },
       "en": {
         "title": "Back"
-      },
-      "botEditable": true
+      }
     },
     {
-      "id": "back-barre-stretch",
+      "id": "back_barre_stretch",
       "category": "fitness",
       "pricingType": "packages",
       "visible": true,
-      "order": 2,
+      "order": 11,
       "showInPriceList": false,
       "prices": [
         {
-          "id": "back-barre-stretch_trial",
-          "type": "trial",
-          "quantity": 1,
-          "totalPrice": 12,
-          "unitPrice": 12
-        },
-        {
-          "id": "back-barre-stretch_single",
-          "type": "single",
+          "id": "back_barre_stretch_1",
           "quantity": 1,
           "totalPrice": 15,
           "unitPrice": 15
         },
         {
-          "id": "back-barre-stretch_pack_4",
-          "type": "pack_4",
+          "id": "back_barre_stretch_4",
           "quantity": 4,
           "totalPrice": 50,
           "unitPrice": 12.5
         },
         {
-          "id": "back-barre-stretch_pack_8",
-          "type": "pack_8",
+          "id": "back_barre_stretch_8",
           "quantity": 8,
           "totalPrice": 90,
           "unitPrice": 11.25
         },
         {
-          "id": "back-barre-stretch_pack_12",
-          "type": "pack_12",
+          "id": "back_barre_stretch_12",
           "quantity": 12,
           "totalPrice": 120,
-          "unitPrice": 10.0
+          "unitPrice": 10
         }
       ],
       "de": {
@@ -189,51 +164,39 @@
       },
       "en": {
         "title": "Back + leg stretching at the ballet barre"
-      },
-      "botEditable": true
+      }
     },
     {
       "id": "barre",
       "category": "fitness",
       "pricingType": "packages",
       "visible": true,
-      "order": 3,
+      "order": 12,
       "showInPriceList": false,
       "prices": [
         {
-          "id": "barre_trial",
-          "type": "trial",
-          "quantity": 1,
-          "totalPrice": 12,
-          "unitPrice": 12
-        },
-        {
-          "id": "barre_single",
-          "type": "single",
+          "id": "barre_1",
           "quantity": 1,
           "totalPrice": 15,
           "unitPrice": 15
         },
         {
-          "id": "barre_pack_4",
-          "type": "pack_4",
+          "id": "barre_4",
           "quantity": 4,
           "totalPrice": 50,
           "unitPrice": 12.5
         },
         {
-          "id": "barre_pack_8",
-          "type": "pack_8",
+          "id": "barre_8",
           "quantity": 8,
           "totalPrice": 90,
           "unitPrice": 11.25
         },
         {
-          "id": "barre_pack_12",
-          "type": "pack_12",
+          "id": "barre_12",
           "quantity": 12,
           "totalPrice": 120,
-          "unitPrice": 10.0
+          "unitPrice": 10
         }
       ],
       "de": {
@@ -247,109 +210,85 @@
       },
       "en": {
         "title": "Barre"
-      },
-      "botEditable": true
+      }
     },
     {
-      "id": "front-splits",
+      "id": "front_splits",
       "category": "fitness",
       "pricingType": "packages",
       "visible": true,
-      "order": 4,
+      "order": 13,
       "showInPriceList": false,
       "prices": [
         {
-          "id": "front-splits_trial",
-          "type": "trial",
-          "quantity": 1,
-          "totalPrice": 12,
-          "unitPrice": 12
-        },
-        {
-          "id": "front-splits_single",
-          "type": "single",
+          "id": "front_splits_1",
           "quantity": 1,
           "totalPrice": 15,
           "unitPrice": 15
         },
         {
-          "id": "front-splits_pack_4",
-          "type": "pack_4",
+          "id": "front_splits_4",
           "quantity": 4,
           "totalPrice": 50,
           "unitPrice": 12.5
         },
         {
-          "id": "front-splits_pack_8",
-          "type": "pack_8",
+          "id": "front_splits_8",
           "quantity": 8,
           "totalPrice": 90,
           "unitPrice": 11.25
         },
         {
-          "id": "front-splits_pack_12",
-          "type": "pack_12",
+          "id": "front_splits_12",
           "quantity": 12,
           "totalPrice": 120,
-          "unitPrice": 10.0
+          "unitPrice": 10
         }
       ],
       "de": {
         "title": "Längsspagat"
       },
       "uk": {
-        "title": "Поздовжній шпагат"
+        "title": "Поздовжні шпагати"
       },
       "ru": {
-        "title": "Продольный шпагат"
+        "title": "Продольные шпагаты"
       },
       "en": {
         "title": "Front splits"
-      },
-      "botEditable": true
+      }
     },
     {
-      "id": "side-splits-back",
+      "id": "side_splits_back",
       "category": "fitness",
       "pricingType": "packages",
       "visible": true,
-      "order": 5,
+      "order": 14,
       "showInPriceList": false,
       "prices": [
         {
-          "id": "side-splits-back_trial",
-          "type": "trial",
-          "quantity": 1,
-          "totalPrice": 12,
-          "unitPrice": 12
-        },
-        {
-          "id": "side-splits-back_single",
-          "type": "single",
+          "id": "side_splits_back_1",
           "quantity": 1,
           "totalPrice": 15,
           "unitPrice": 15
         },
         {
-          "id": "side-splits-back_pack_4",
-          "type": "pack_4",
+          "id": "side_splits_back_4",
           "quantity": 4,
           "totalPrice": 50,
           "unitPrice": 12.5
         },
         {
-          "id": "side-splits-back_pack_8",
-          "type": "pack_8",
+          "id": "side_splits_back_8",
           "quantity": 8,
           "totalPrice": 90,
           "unitPrice": 11.25
         },
         {
-          "id": "side-splits-back_pack_12",
-          "type": "pack_12",
+          "id": "side_splits_back_12",
           "quantity": 12,
           "totalPrice": 120,
-          "unitPrice": 10.0
+          "unitPrice": 10
         }
       ],
       "de": {
@@ -363,51 +302,39 @@
       },
       "en": {
         "title": "Side splits + back"
-      },
-      "botEditable": true
+      }
     },
     {
-      "id": "high-heels",
+      "id": "high_heels",
       "category": "fitness",
       "pricingType": "packages",
       "visible": true,
-      "order": 6,
+      "order": 15,
       "showInPriceList": false,
       "prices": [
         {
-          "id": "high-heels_trial",
-          "type": "trial",
-          "quantity": 1,
-          "totalPrice": 12,
-          "unitPrice": 12
-        },
-        {
-          "id": "high-heels_single",
-          "type": "single",
+          "id": "high_heels_1",
           "quantity": 1,
           "totalPrice": 15,
           "unitPrice": 15
         },
         {
-          "id": "high-heels_pack_4",
-          "type": "pack_4",
+          "id": "high_heels_4",
           "quantity": 4,
           "totalPrice": 50,
           "unitPrice": 12.5
         },
         {
-          "id": "high-heels_pack_8",
-          "type": "pack_8",
+          "id": "high_heels_8",
           "quantity": 8,
           "totalPrice": 90,
           "unitPrice": 11.25
         },
         {
-          "id": "high-heels_pack_12",
-          "type": "pack_12",
+          "id": "high_heels_12",
           "quantity": 12,
           "totalPrice": 120,
-          "unitPrice": 10.0
+          "unitPrice": 10
         }
       ],
       "de": {
@@ -421,51 +348,39 @@
       },
       "en": {
         "title": "High Heels"
-      },
-      "botEditable": true
+      }
     },
     {
-      "id": "high-heels-commercial",
+      "id": "high_heels_commercial",
       "category": "fitness",
       "pricingType": "packages",
       "visible": true,
-      "order": 7,
+      "order": 16,
       "showInPriceList": false,
       "prices": [
         {
-          "id": "high-heels-commercial_trial",
-          "type": "trial",
-          "quantity": 1,
-          "totalPrice": 12,
-          "unitPrice": 12
-        },
-        {
-          "id": "high-heels-commercial_single",
-          "type": "single",
+          "id": "high_heels_commercial_1",
           "quantity": 1,
           "totalPrice": 15,
           "unitPrice": 15
         },
         {
-          "id": "high-heels-commercial_pack_4",
-          "type": "pack_4",
+          "id": "high_heels_commercial_4",
           "quantity": 4,
           "totalPrice": 50,
           "unitPrice": 12.5
         },
         {
-          "id": "high-heels-commercial_pack_8",
-          "type": "pack_8",
+          "id": "high_heels_commercial_8",
           "quantity": 8,
           "totalPrice": 90,
           "unitPrice": 11.25
         },
         {
-          "id": "high-heels-commercial_pack_12",
-          "type": "pack_12",
+          "id": "high_heels_commercial_12",
           "quantity": 12,
           "totalPrice": 120,
-          "unitPrice": 10.0
+          "unitPrice": 10
         }
       ],
       "de": {
@@ -479,51 +394,39 @@
       },
       "en": {
         "title": "High Heels + Commercial"
-      },
-      "botEditable": true
+      }
     },
     {
-      "id": "pilates-sculpt-mobility",
+      "id": "pilates_sculpt_mobility",
       "category": "fitness",
       "pricingType": "packages",
       "visible": true,
-      "order": 8,
+      "order": 17,
       "showInPriceList": false,
       "prices": [
         {
-          "id": "pilates-sculpt-mobility_trial",
-          "type": "trial",
-          "quantity": 1,
-          "totalPrice": 12,
-          "unitPrice": 12
-        },
-        {
-          "id": "pilates-sculpt-mobility_single",
-          "type": "single",
+          "id": "pilates_sculpt_mobility_1",
           "quantity": 1,
           "totalPrice": 15,
           "unitPrice": 15
         },
         {
-          "id": "pilates-sculpt-mobility_pack_4",
-          "type": "pack_4",
+          "id": "pilates_sculpt_mobility_4",
           "quantity": 4,
           "totalPrice": 50,
           "unitPrice": 12.5
         },
         {
-          "id": "pilates-sculpt-mobility_pack_8",
-          "type": "pack_8",
+          "id": "pilates_sculpt_mobility_8",
           "quantity": 8,
           "totalPrice": 90,
           "unitPrice": 11.25
         },
         {
-          "id": "pilates-sculpt-mobility_pack_12",
-          "type": "pack_12",
+          "id": "pilates_sculpt_mobility_12",
           "quantity": 12,
           "totalPrice": 120,
-          "unitPrice": 10.0
+          "unitPrice": 10
         }
       ],
       "de": {
@@ -537,498 +440,413 @@
       },
       "en": {
         "title": "Pilates Sculpt + Mobility Stretch"
-      },
-      "botEditable": true
+      }
     },
     {
-      "id": "back-massage",
+      "id": "back_massage",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 1,
       "showInPriceList": true,
-      "duration": 60,
       "prices": [
         {
-          "id": "back-massage_fixed",
-          "type": "fixed",
+          "id": "back_massage_1",
           "quantity": 1,
-          "totalPrice": 45.0,
-          "unitPrice": 45.0
+          "totalPrice": 45,
+          "unitPrice": 45
         }
       ],
       "de": {
-        "title": "Rückenmassage",
-        "note": ""
+        "title": "Rückenmassage"
       },
       "uk": {
-        "title": "Масаж спини",
-        "note": ""
+        "title": "Масаж спини"
       },
       "ru": {
-        "title": "Массаж спины",
-        "note": ""
+        "title": "Массаж спины"
       },
       "en": {
-        "title": "Back massage",
-        "note": ""
+        "title": "Back massage"
       },
-      "botEditable": true
+      "duration": 60
     },
     {
-      "id": "general-massage",
+      "id": "full_massage",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 2,
       "showInPriceList": true,
-      "duration": 90,
       "prices": [
         {
-          "id": "general-massage_fixed",
-          "type": "fixed",
+          "id": "full_massage_1",
           "quantity": 1,
           "totalPrice": 60,
           "unitPrice": 60
         }
       ],
       "de": {
-        "title": "Ganzkörpermassage",
-        "note": ""
+        "title": "Ganzkörpermassage"
       },
       "uk": {
-        "title": "Загальний масаж",
-        "note": ""
+        "title": "Загальний масаж"
       },
       "ru": {
-        "title": "Общий массаж",
-        "note": ""
+        "title": "Общий массаж"
       },
       "en": {
-        "title": "Full-body massage",
-        "note": ""
+        "title": "Full-body massage"
       },
-      "botEditable": true
+      "duration": 90
     },
     {
-      "id": "anticellulite-manual",
+      "id": "anti_cellulite_manual",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 3,
       "showInPriceList": true,
-      "duration": 90,
       "prices": [
         {
-          "id": "anticellulite-manual_fixed",
-          "type": "fixed",
+          "id": "anti_cellulite_manual_1",
           "quantity": 1,
           "totalPrice": 70,
           "unitPrice": 70
         }
       ],
       "de": {
-        "title": "Manuelle Anti-Cellulite-Massage",
-        "note": ""
+        "title": "Manuelle Anti-Cellulite-Massage"
       },
       "uk": {
-        "title": "Антицелюлітний ручний масаж",
-        "note": ""
+        "title": "Ручний антицелюлітний масаж"
       },
       "ru": {
-        "title": "Антицеллюлитный ручной массаж",
-        "note": ""
+        "title": "Антицеллюлитный ручной массаж"
       },
       "en": {
-        "title": "Manual anti-cellulite massage",
-        "note": ""
+        "title": "Manual anti-cellulite massage"
       },
-      "botEditable": true
+      "duration": 90
     },
     {
-      "id": "anticellulite-device-full-body",
+      "id": "anti_cellulite_combined",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 4,
       "showInPriceList": true,
-      "duration": 90,
       "prices": [
         {
-          "id": "anticellulite-device-full-body_fixed",
-          "type": "fixed",
+          "id": "anti_cellulite_combined_1",
           "quantity": 1,
           "totalPrice": 65,
           "unitPrice": 65
         }
       ],
       "de": {
-        "title": "Anti-Cellulite- + apparative Ganzkörpermassage",
-        "note": "Aktion bis Ende November"
+        "title": "Manuelle + apparative Anti-Cellulite-Ganzkörpermassage"
       },
       "uk": {
-        "title": "Антицелюлітний + апаратний масаж усього тіла",
-        "note": "Акція до кінця листопада"
+        "title": "Ручний + апаратний антицелюлітний масаж усього тіла"
       },
       "ru": {
-        "title": "Антицеллюлитный + аппаратный массаж всего тела",
-        "note": "Акция до конца ноября"
+        "title": "Антицеллюлитный ручной + аппаратный массаж всего тела"
       },
       "en": {
-        "title": "Anti-cellulite + device-assisted full-body massage",
-        "note": "Promotion until the end of November"
+        "title": "Manual + machine-assisted anti-cellulite full-body massage"
       },
-      "botEditable": true
+      "duration": 90,
+      "note": "Promotion valid until the end of November"
     },
     {
-      "id": "cupping-massage",
+      "id": "cupping",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 5,
       "showInPriceList": true,
-      "duration": 60,
       "prices": [
         {
-          "id": "cupping-massage_fixed",
-          "type": "fixed",
+          "id": "cupping_1",
           "quantity": 1,
           "totalPrice": 45,
           "unitPrice": 45
         }
       ],
       "de": {
-        "title": "Schröpfmassage",
-        "note": ""
+        "title": "Schröpfmassage"
       },
       "uk": {
-        "title": "Баночний масаж",
-        "note": ""
+        "title": "Баночний масаж"
       },
       "ru": {
-        "title": "Баночный массаж",
-        "note": ""
+        "title": "Баночный массаж"
       },
       "en": {
-        "title": "Cupping massage",
-        "note": ""
+        "title": "Cupping massage"
       },
-      "botEditable": true
+      "duration": 60
     },
     {
-      "id": "lymphatic-drainage",
+      "id": "lymphatic",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 6,
       "showInPriceList": true,
-      "duration": 90,
       "prices": [
         {
-          "id": "lymphatic-drainage_fixed",
-          "type": "fixed",
+          "id": "lymphatic_1",
           "quantity": 1,
           "totalPrice": 70,
           "unitPrice": 70
         }
       ],
       "de": {
-        "title": "Lymphdrainage-Massage",
-        "note": ""
+        "title": "Lymphdrainage-Massage"
       },
       "uk": {
-        "title": "Лімфодренажний масаж",
-        "note": ""
+        "title": "Лімфодренажний масаж"
       },
       "ru": {
-        "title": "Лимфодренажный массаж",
-        "note": ""
+        "title": "Лимфодренажный массаж"
       },
       "en": {
-        "title": "Lymphatic drainage massage",
-        "note": ""
+        "title": "Lymphatic drainage massage"
       },
-      "botEditable": true
+      "duration": 90
     },
     {
-      "id": "children-massage",
+      "id": "children",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 7,
       "showInPriceList": true,
-      "duration": 60,
       "prices": [
         {
-          "id": "children-massage_fixed",
-          "type": "fixed",
+          "id": "children_1",
           "quantity": 1,
-          "totalPrice": 45.0,
-          "unitPrice": 45.0
+          "totalPrice": 45,
+          "unitPrice": 45
         }
       ],
       "de": {
-        "title": "Kindermassage",
-        "note": ""
+        "title": "Kindermassage"
       },
       "uk": {
-        "title": "Дитячий масаж",
-        "note": ""
+        "title": "Дитячий масаж"
       },
       "ru": {
-        "title": "Детский массаж",
-        "note": ""
+        "title": "Детский массаж"
       },
       "en": {
-        "title": "Children’s massage",
-        "note": ""
+        "title": "Children's massage"
       },
-      "botEditable": true
+      "duration": 60
     },
     {
-      "id": "foot-massage",
+      "id": "foot",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 8,
       "showInPriceList": true,
-      "duration": 30,
       "prices": [
         {
-          "id": "foot-massage_fixed",
-          "type": "fixed",
+          "id": "foot_1",
           "quantity": 1,
           "totalPrice": 25,
           "unitPrice": 25
         }
       ],
       "de": {
-        "title": "Fußmassage (Füße)",
-        "note": ""
+        "title": "Fußmassage"
       },
       "uk": {
-        "title": "Foot-масаж (стопи)",
-        "note": ""
+        "title": "Масаж стоп"
       },
       "ru": {
-        "title": "Foot-массаж (стопы)",
-        "note": ""
+        "title": "Массаж стоп"
       },
       "en": {
-        "title": "Foot massage (feet)",
-        "note": ""
+        "title": "Foot massage"
       },
-      "botEditable": true
+      "duration": 30
     },
     {
-      "id": "face-manual",
+      "id": "face_manual",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 9,
       "showInPriceList": true,
-      "duration": 30,
       "prices": [
         {
-          "id": "face-manual_fixed",
-          "type": "fixed",
+          "id": "face_manual_1",
           "quantity": 1,
           "totalPrice": 35,
           "unitPrice": 35
         }
       ],
       "de": {
-        "title": "Manuelle Gesichtsmassage",
-        "note": ""
+        "title": "Manuelle Gesichtsmassage"
       },
       "uk": {
-        "title": "Ручний масаж обличчя",
-        "note": ""
+        "title": "Ручний масаж обличчя"
       },
       "ru": {
-        "title": "Массаж лица ручной",
-        "note": ""
+        "title": "Ручной массаж лица"
       },
       "en": {
-        "title": "Manual facial massage",
-        "note": ""
+        "title": "Manual facial massage"
       },
-      "botEditable": true
+      "duration": 30
     },
     {
-      "id": "face-manual-device",
+      "id": "face_combined",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 10,
       "showInPriceList": true,
-      "duration": 60,
       "prices": [
         {
-          "id": "face-manual-device_fixed",
-          "type": "fixed",
+          "id": "face_combined_1",
           "quantity": 1,
           "totalPrice": 45,
           "unitPrice": 45
         }
       ],
       "de": {
-        "title": "Manuelle + apparative Gesichtsmassage",
-        "note": "🧖‍♀️ Alginatmaske als Geschenk!"
+        "title": "Manuelle + apparative Gesichtsmassage"
       },
       "uk": {
-        "title": "Ручний + апаратний масаж обличчя",
-        "note": "🧖‍♀️ Альгінатна маска у подарунок!"
+        "title": "Ручний + апаратний масаж обличчя"
       },
       "ru": {
-        "title": "Массаж лица ручной + аппаратный",
-        "note": "🧖‍♀️ Альгинатная маска в подарок!"
+        "title": "Ручной + аппаратный массаж лица"
       },
       "en": {
-        "title": "Manual + device-assisted facial massage",
-        "note": "🧖‍♀️ Complimentary alginate mask!"
+        "title": "Manual + machine-assisted facial massage"
       },
-      "botEditable": true
+      "duration": 60
     },
     {
-      "id": "face-device",
+      "id": "face_machine",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 11,
       "showInPriceList": true,
-      "duration": 30,
       "prices": [
         {
-          "id": "face-device_fixed",
-          "type": "fixed",
+          "id": "face_machine_1",
           "quantity": 1,
           "totalPrice": 30,
           "unitPrice": 30
         }
       ],
       "de": {
-        "title": "Apparative Gesichtsmassage",
-        "note": ""
+        "title": "Apparative Gesichtsmassage"
       },
       "uk": {
-        "title": "Апаратний масаж обличчя",
-        "note": ""
+        "title": "Апаратний масаж обличчя"
       },
       "ru": {
-        "title": "Массаж лица аппаратный",
-        "note": ""
+        "title": "Аппаратный массаж лица"
       },
       "en": {
-        "title": "Device-assisted facial massage",
-        "note": ""
+        "title": "Machine-assisted facial massage"
       },
-      "botEditable": true
+      "duration": 30
     },
     {
-      "id": "neck-collar",
+      "id": "neck_collar",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 12,
       "showInPriceList": true,
-      "duration": 30,
       "prices": [
         {
-          "id": "neck-collar_fixed",
-          "type": "fixed",
+          "id": "neck_collar_1",
           "quantity": 1,
           "totalPrice": 30,
           "unitPrice": 30
         }
       ],
       "de": {
-        "title": "Nacken- und Kragenzonenmassage",
-        "note": ""
+        "title": "Nacken- und Kragenzonenmassage"
       },
       "uk": {
-        "title": "Масаж шийно-комірцевої зони",
-        "note": ""
+        "title": "Масаж шийно-комірцевої зони"
       },
       "ru": {
-        "title": "Массаж шейно-воротниковой зоны",
-        "note": ""
+        "title": "Массаж шейно-воротниковой зоны"
       },
       "en": {
-        "title": "Neck and collar-zone massage",
-        "note": ""
+        "title": "Neck and collar zone massage"
       },
-      "botEditable": true
+      "duration": 30
     },
     {
-      "id": "body-device",
+      "id": "body_machine",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 13,
       "showInPriceList": true,
-      "duration": 30,
       "prices": [
         {
-          "id": "body-device_fixed",
-          "type": "fixed",
+          "id": "body_machine_1",
           "quantity": 1,
           "totalPrice": 45,
           "unitPrice": 45
         }
       ],
       "de": {
-        "title": "Apparative Körpermassage",
-        "note": ""
+        "title": "Apparative Körpermassage"
       },
       "uk": {
-        "title": "Апаратний масаж тіла",
-        "note": ""
+        "title": "Апаратний масаж тіла"
       },
       "ru": {
-        "title": "Аппаратный массаж тела",
-        "note": ""
+        "title": "Аппаратный массаж тела"
       },
       "en": {
-        "title": "Device-assisted body massage",
-        "note": ""
+        "title": "Machine-assisted body massage"
       },
-      "botEditable": true
+      "duration": 30
     },
     {
-      "id": "kinesio-tape",
+      "id": "kinesio_tape",
       "category": "massage",
       "pricingType": "fixed",
       "visible": true,
       "order": 14,
       "showInPriceList": true,
-      "duration": null,
       "prices": [
         {
-          "id": "kinesio-tape_fixed",
-          "type": "fixed",
+          "id": "kinesio_tape_1",
           "quantity": 1,
-          "totalPrice": 25,
-          "unitPrice": 25
+          "totalPrice": 5,
+          "unitPrice": 5
         }
       ],
       "de": {
-        "title": "Kinesiotape (1 Bereich)",
-        "note": ""
+        "title": "Kinesio-Taping (1 Abschnitt)"
       },
       "uk": {
-        "title": "Кінезіотейп (1 фрагмент)",
-        "note": ""
+        "title": "Кінезіотейпування (1 фрагмент)"
       },
       "ru": {
-        "title": "Кинезотейп (1 фрагмент)",
-        "note": ""
+        "title": "Кинезиотейпирование (1 фрагмент)"
       },
       "en": {
-        "title": "Kinesio tape (1 area)",
-        "note": ""
-      },
-      "botEditable": true
+        "title": "Kinesio taping (1 section)"
+      }
     }
   ]
 }

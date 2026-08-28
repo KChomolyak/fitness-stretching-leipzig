@@ -22,6 +22,3 @@ schedule_exceptions.json
 
 Telegram booking
 - set config/site.json -> booking.url to the final Telegram bot URL when available.
-
-
-Data model update for Telegram bot compatibility (2026-08-26): prices.json contains all fitness/massage services; fitness services use five price types trial/single/pack_4/pack_8/pack_12; massage supports duration and localized note; regular_schedule.json references fitness service IDs.
