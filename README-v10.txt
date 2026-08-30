@@ -5,8 +5,7 @@ Basis
 - Design, prices, schedule structure and existing photos were preserved.
 
 Important when updating GitHub
-- content/prices.json is preserved byte-for-byte from the supplied v9 archive. Prices and the service catalogue were not changed in v10.
-- The schedule JSON files were synchronized with the versions published on fitness-stretching-leipzig.de on 28.08.2026 so that lessons already added through the bot are retained.
+- The content JSON files included in this archive were synchronized with the versions published on fitness-stretching-leipzig.de on 28.08.2026.
 - Before a later deployment, compare content/prices.json, content/regular_schedule.json, content/schedule_exceptions.json and content/blog.json with the current GitHub versions.
 - Do not overwrite newer changes made by the Telegram bot. Merge changes if the bot has updated a JSON file after this archive was created.
 - Bot users, Telegram IDs, permissions, tokens and private booking data must never be uploaded with the public website.

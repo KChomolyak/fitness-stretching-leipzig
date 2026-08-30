@@ -1,13 +1,14 @@
 {
   "backgrounds": {
-    "main": "#3B3027",
-    "card": "#514238",
-    "accent": "#B8A594"
+    "main": "#F7F2EB",
+    "card": "#FFFAF2",
+    "accent": "#3B3027"
   },
   "texts": {
-    "main": "#F7F1E8",
-    "secondary": "#D5C7B8",
-    "contrast": "#3B3027"
+    "main": "#3B3027",
+    "secondary": "#3B3027",
+    "contrast": "#FFFFFF"
   },
-  "border": "#756457"
+  "logo": "#3B3027",
+  "border": "#D9CFBF"
 }
