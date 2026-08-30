@@ -69,6 +69,46 @@ const fallbackRegular={"regularEvents":[{"id":"regular_high_heels_mon_1700","ser
 const fallbackExceptions={"exceptions":[]};
 let pricesData={services:[]}, blogData={articles:[]}, regularData={regularEvents:[]}, exceptionsData={exceptions:[]}, siteConfig={};
 let calendarDate=new Date(); calendarDate.setDate(1);
+const fallbackTheme={backgrounds:{main:'#F7F1E8',card:'#FFFFFF',accent:'#3B3027'},texts:{main:'#20201D',secondary:'#786F62',contrast:'#FFFFFF'},border:'#D9CFBF'};
+const fallbackSections={sections:[
+ {id:'home',visible:true,order:1},{id:'benefits',visible:true,order:2},{id:'about',visible:true,order:3},{id:'courses',visible:true,order:4},{id:'prices',visible:true,order:5},{id:'schedule',visible:true,order:6},{id:'why',visible:true,order:7},{id:'massage',visible:true,order:8},{id:'gallery',visible:true,order:9},{id:'blog',visible:true,order:10},{id:'trainer',visible:true,order:11},{id:'faq',visible:true,order:12},{id:'directions',visible:true,order:13},{id:'contact',visible:true,order:14}
+]};
+function applyTheme(theme){
+ const source=theme&&typeof theme==='object'?theme:fallbackTheme;
+ const value=(candidate,fallback)=>/^#[0-9a-f]{6}$/i.test(String(candidate||''))?candidate:fallback;
+ const colors={
+  '--background-main':value(source.backgrounds?.main,fallbackTheme.backgrounds.main),
+  '--background-card':value(source.backgrounds?.card,fallbackTheme.backgrounds.card),
+  '--background-accent':value(source.backgrounds?.accent,fallbackTheme.backgrounds.accent),
+  '--text-main':value(source.texts?.main,fallbackTheme.texts.main),
+  '--text-secondary':value(source.texts?.secondary,fallbackTheme.texts.secondary),
+  '--text-contrast':value(source.texts?.contrast,fallbackTheme.texts.contrast),
+  '--border-color':value(source.border,fallbackTheme.border)
+ };
+ Object.entries(colors).forEach(([name,color])=>document.documentElement.style.setProperty(name,color));
+}
+function applySections(config){
+ const main=document.querySelector('main');if(!main)return;
+ const defaults=new Map(fallbackSections.sections.map((item,index)=>[item.id,{...item,index}]));
+ const supplied=Array.isArray(config?.sections)?config.sections:[];
+ const valid=supplied.filter(item=>item&&defaults.has(item.id));
+ const settings=new Map(valid.map(item=>[item.id,item]));
+ const sections=[...main.querySelectorAll(':scope > section[id]')];
+ sections.forEach(section=>{
+  const setting=settings.get(section.id)||defaults.get(section.id);
+  section.hidden=setting?.visible===false;
+ });
+ sections.sort((a,b)=>{
+  const sa=settings.get(a.id)||defaults.get(a.id),sb=settings.get(b.id)||defaults.get(b.id);
+  const oa=Number.isFinite(Number(sa?.order))?Number(sa.order):defaults.get(a.id).order;
+  const ob=Number.isFinite(Number(sb?.order))?Number(sb.order):defaults.get(b.id).order;
+  return oa-ob||defaults.get(a.id).index-defaults.get(b.id).index;
+ }).forEach(section=>main.appendChild(section));
+ document.querySelectorAll('a[href^="#"]').forEach(link=>{
+  const target=document.getElementById(link.getAttribute('href').slice(1));
+  if(target?.matches('main > section'))link.hidden=target.hidden;
+ });
+}
 function currentLang(){return localStorage.getItem('fsl_lang')||'de'}
 function serviceById(id){return pricesData.services.find(s=>s.id===id)}
 function serviceTitle(id,lang=currentLang()){const s=serviceById(id); return s?.[lang]?.title || s?.de?.title || id}
@@ -226,8 +266,9 @@ const originalSetLang=setLang; setLang=function(lang){originalSetLang(lang);rend
 async function loadV9(){
  const fetchJson=async(url,fallback)=>{try{const separator=url.includes('?')?'&':'?';const response=await fetch(`${url}${separator}v=${Date.now()}`,{cache:'no-store'});if(!response.ok)throw new Error(`${response.status} ${url}`);return await response.json()}catch(error){console.warn(`JSON fetch unavailable: ${url}`,error);return fallback}};
  const fallbackConfig={social:{whatsapp:'https://wa.me/4917624785836',telegram:''},booking:{whatsapp:'https://wa.me/4917624785836',whatsappMassage:'https://wa.me/4915226130049',telegram:'',email:'pisarevskaya.ks@gmail.com'}};
- const [loadedPrices,loadedBlog,loadedRegular,loadedExceptions,loadedConfig]=await Promise.all([fetchJson('content/prices.json',fallbackPrices),fetchJson('content/blog.json',fallbackBlog),fetchJson('content/regular_schedule.json',fallbackRegular),fetchJson('content/schedule_exceptions.json',fallbackExceptions),fetchJson('config/site.json',fallbackConfig)]);
+ const [loadedPrices,loadedBlog,loadedRegular,loadedExceptions,loadedConfig,loadedTheme,loadedSections]=await Promise.all([fetchJson('content/prices.json',fallbackPrices),fetchJson('content/blog.json',fallbackBlog),fetchJson('content/regular_schedule.json',fallbackRegular),fetchJson('content/schedule_exceptions.json',fallbackExceptions),fetchJson('config/site.json',fallbackConfig),fetchJson('config/theme.json',fallbackTheme),fetchJson('config/sections.json',fallbackSections)]);
  pricesData={services:firstArray(loadedPrices,['services','items'])};blogData={articles:firstArray(loadedBlog,['articles','items'])};regularData=normalizeRegularData(loadedRegular);exceptionsData=normalizeExceptionsData(loadedExceptions,loadedRegular);siteConfig=loadedConfig||fallbackConfig;
+ applyTheme(loadedTheme);applySections(loadedSections);
  updateBookingLinks();
  setLang('de');
 }

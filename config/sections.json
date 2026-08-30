@@ -1,0 +1,18 @@
+{
+  "sections": [
+    { "id": "home", "visible": true, "order": 1 },
+    { "id": "benefits", "visible": true, "order": 2 },
+    { "id": "about", "visible": true, "order": 3 },
+    { "id": "courses", "visible": true, "order": 4 },
+    { "id": "prices", "visible": true, "order": 5 },
+    { "id": "schedule", "visible": true, "order": 6 },
+    { "id": "why", "visible": true, "order": 7 },
+    { "id": "massage", "visible": true, "order": 8 },
+    { "id": "gallery", "visible": true, "order": 9 },
+    { "id": "blog", "visible": true, "order": 10 },
+    { "id": "trainer", "visible": true, "order": 11 },
+    { "id": "faq", "visible": true, "order": 12 },
+    { "id": "directions", "visible": true, "order": 13 },
+    { "id": "contact", "visible": true, "order": 14 }
+  ]
+}
