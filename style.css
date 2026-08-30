@@ -132,3 +132,14 @@ html,body{max-width:100%;overflow-x:hidden}
 
 @media(max-width:980px){.hero-copy{overflow:visible}.hero-logo{font-size:58px}}
 @media(max-width:560px){.hero-logo{font-size:43px}}
+
+/* v11 mobile header alignment */
+@media(max-width:560px){
+  .site-header{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:7px;padding:10px 12px;flex-wrap:nowrap}
+  .header-logo{font-size:16px;min-width:0;justify-self:start}
+  .language-switch{gap:2px;flex-wrap:nowrap;justify-self:end}
+  .language-switch button{padding:3px 1px}
+  .language-switch img{width:21px;height:14px}
+  .menu-toggle{grid-column:3;grid-row:1;font-size:28px;padding:2px}
+  .main-nav{grid-column:1/-1;grid-row:2;width:100%;margin:0}
+}
