@@ -1,4 +1,5 @@
 {
+  "schemaVersion": 1,
   "domain": "fitness-stretching-leipzig.de",
   "defaultLanguage": "de",
   "languages": [
@@ -15,6 +16,7 @@
     "schedule",
     "massage",
     "gallery",
+    "reviews",
     "blog",
     "contact"
   ],
@@ -30,5 +32,26 @@
     "whatsapp": "https://wa.me/4917624785836",
     "email": "pisarevskaya.ks@gmail.com",
     "whatsappMassage": "https://wa.me/4915226130049"
+  },
+  "images": {
+    "hero": "assets/hero-studio.jpg",
+    "intro": "assets/intro-v7.png",
+    "massageBanner": "assets/banner-massage-fitness.jpg",
+    "courses": {
+      "stretching": "assets/courses/stretching.jpg",
+      "pilates": "assets/courses/pilates.jpg",
+      "barre": "assets/courses/barre.jpg",
+      "highheels": "assets/courses/highheels.jpg",
+      "ladydance": "assets/courses/ladydance.jpg",
+      "pregnancy": "assets/courses/pregnancy.jpg",
+      "kids3": "assets/courses/kids3.jpg",
+      "kids9": "assets/courses/kids9.jpg"
+    }
+  },
+  "reviews": {
+    "apiUrl": "",
+    "fallbackFile": "content/reviews.json",
+    "googleUrl": "https://share.google/effulA2MOSSWAdJMj",
+    "refreshHours": 6
   }
 }

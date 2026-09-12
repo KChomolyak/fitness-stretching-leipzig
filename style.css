@@ -126,3 +126,5 @@ html,body{max-width:100%;overflow-x:hidden}
   .menu-toggle{grid-column:3;grid-row:1;font-size:28px;padding:2px}
   .main-nav{grid-column:1/-1;grid-row:2;width:100%;margin:0}
 }
+
+.reviews-section{background:var(--background-card)}.reviews-summary{text-align:center;font:700 22px var(--serif);color:var(--olive);margin:-18px 0 26px}.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1180px;margin:0 auto}.review-card{background:var(--background-main);border:1px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:10px}.review-card p{margin:0;flex:1}.review-card small{color:var(--muted)}.review-stars{color:#b47b2b;letter-spacing:.12em}.reviews-empty{text-align:center;max-width:720px;margin:0 auto 24px}.reviews-action{text-align:center;margin-top:28px}.reviews-action .btn{width:auto}@media(max-width:980px){.reviews-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.reviews-grid{grid-template-columns:1fr}}
