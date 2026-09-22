@@ -172,6 +172,12 @@
           "image": "assets/courses/highheels.jpg",
           "visible": true,
           "order": 28
+        },
+        {
+          "id": "studio-87bf153f212e",
+          "image": "assets/courses/stretching.jpg",
+          "visible": true,
+          "order": 29
         }
       ]
     },
