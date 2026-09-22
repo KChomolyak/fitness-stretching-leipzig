@@ -166,6 +166,12 @@
           "image": "assets/gallery/gallery-27.jpg",
           "visible": true,
           "order": 27
+        },
+        {
+          "id": "studio-1db90f312721",
+          "image": "assets/courses/highheels.jpg",
+          "visible": true,
+          "order": 28
         }
       ]
     },
