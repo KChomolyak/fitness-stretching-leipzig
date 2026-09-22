@@ -178,6 +178,12 @@
           "image": "assets/courses/stretching.jpg",
           "visible": true,
           "order": 29
+        },
+        {
+          "id": "studio-86f402111b29",
+          "image": "assets/courses/c6312e08-4f0f-4711-9b7c-5c86305ffa34-jpeg-2d85f8a8.jpg",
+          "visible": true,
+          "order": 30
         }
       ]
     },
