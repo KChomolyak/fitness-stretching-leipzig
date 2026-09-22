@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "languages": {
+    "de": {
+      "title": "Fitness & Stretching Leipzig | Kurse, Pilates und Massage",
+      "description": "Fitness, Stretching, Pilates, Tanz, Kinderkurse und Massage in Leipzig. Kleine Gruppen und individuelle Betreuung in der Lutherstraße 14.",
+      "keywords": [
+        "Stretching Leipzig",
+        "Fitness Leipzig",
+        "Pilates Leipzig",
+        "Stretching Kurs Leipzig",
+        "Massage Leipzig",
+        "Tanzkurs Leipzig",
+        "Kindertraining Leipzig"
+      ],
+      "ogTitle": "Fitness & Stretching Leipzig",
+      "ogDescription": "Fitness, Stretching, Pilates, Tanz, Kinderkurse und Massage in Leipzig.",
+      "ogImage": "assets/hero-studio.jpg",
+      "indexing": true
+    },
+    "uk": {
+      "title": "Fitness & Stretching Leipzig | Фітнес, пілатес і масаж",
+      "description": "Фітнес, стретчинг, пілатес, танці, дитячі заняття та масаж у Лейпцигу. Невеликі групи й індивідуальний підхід.",
+      "keywords": [
+        "стретчинг Лейпциг",
+        "фітнес Лейпциг",
+        "пілатес Лейпциг",
+        "масаж Лейпциг",
+        "танці Лейпциг",
+        "дитячі заняття Лейпциг"
+      ],
+      "ogTitle": "Fitness & Stretching Leipzig",
+      "ogDescription": "Фітнес, стретчинг, пілатес, танці, дитячі заняття та масаж у Лейпцигу.",
+      "ogImage": "assets/hero-studio.jpg",
+      "indexing": true
+    },
+    "ru": {
+      "title": "Fitness & Stretching Leipzig | Фитнес, пилатес и массаж",
+      "description": "Фитнес, стретчинг, пилатес, танцы, детские занятия и массаж в Лейпциге. Небольшие группы и индивидуальный подход.",
+      "keywords": [
+        "стретчинг Лейпциг",
+        "фитнес Лейпциг",
+        "пилатес Лейпциг",
+        "массаж Лейпциг",
+        "танцы Лейпциг",
+        "детские занятия Лейпциг"
+      ],
+      "ogTitle": "Fitness & Stretching Leipzig",
+      "ogDescription": "Фитнес, стретчинг, пилатес, танцы, детские занятия и массаж в Лейпциге.",
+      "ogImage": "assets/hero-studio.jpg",
+      "indexing": true
+    },
+    "en": {
+      "title": "Fitness & Stretching Leipzig | Pilates, Dance and Massage",
+      "description": "Fitness, stretching, Pilates, dance, children’s classes and massage in Leipzig. Small groups and individual support.",
+      "keywords": [
+        "stretching Leipzig",
+        "fitness Leipzig",
+        "Pilates Leipzig",
+        "massage Leipzig",
+        "dance classes Leipzig",
+        "kids fitness Leipzig"
+      ],
+      "ogTitle": "Fitness & Stretching Leipzig",
+      "ogDescription": "Fitness, stretching, Pilates, dance, children’s classes and massage in Leipzig.",
+      "ogImage": "assets/hero-studio.jpg",
+      "indexing": true
+    }
+  }
+}

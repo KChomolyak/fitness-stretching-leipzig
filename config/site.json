@@ -41,7 +41,7 @@
       "stretching": "assets/courses/stretching.jpg",
       "pilates": "assets/courses/pilates.jpg",
       "barre": "assets/courses/barre.jpg",
-      "highheels": "assets/courses/c6312e08-4f0f-4711-9b7c-5c86305ffa34-jpeg-1714ad16.jpg",
+      "highheels": "assets/courses/highheels.jpg",
       "ladydance": "assets/courses/ladydance.jpg",
       "pregnancy": "assets/courses/pregnancy.jpg",
       "kids3": "assets/courses/kids3.jpg",
@@ -52,6 +52,6 @@
     "apiUrl": "",
     "fallbackFile": "content/reviews.json",
     "googleUrl": "https://share.google/effulA2MOSSWAdJMj",
-    "refreshHours": 6
+    "refreshHours": 1
   }
 }
