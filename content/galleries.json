@@ -184,6 +184,12 @@
           "image": "assets/courses/c6312e08-4f0f-4711-9b7c-5c86305ffa34-jpeg-2d85f8a8.jpg",
           "visible": true,
           "order": 30
+        },
+        {
+          "id": "studio-8e7a17f01b62",
+          "image": "assets/courses/c6312e08-4f0f-4711-9b7c-5c86305ffa34-jpeg-d924479a.jpg",
+          "visible": true,
+          "order": 31
         }
       ]
     },
