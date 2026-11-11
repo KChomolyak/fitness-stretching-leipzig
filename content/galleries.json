@@ -196,6 +196,12 @@
           "image": "assets/courses/1000101985-jpg-3b734856.jpg",
           "visible": true,
           "order": 32
+        },
+        {
+          "id": "studio-21154ec5e1fb",
+          "image": "assets/gallery/1000102041-jpg-68a095e5.jpg",
+          "visible": true,
+          "order": 33
         }
       ]
     },
