@@ -202,6 +202,12 @@
           "image": "assets/gallery/1000102041-jpg-68a095e5.jpg",
           "visible": true,
           "order": 33
+        },
+        {
+          "id": "studio-84493a5883ea",
+          "image": "assets/gallery/1000102041-jpg-0d3a3d50.jpg",
+          "visible": true,
+          "order": 34
         }
       ]
     },
