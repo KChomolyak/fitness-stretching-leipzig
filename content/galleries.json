@@ -190,6 +190,12 @@
           "image": "assets/courses/c6312e08-4f0f-4711-9b7c-5c86305ffa34-jpeg-d924479a.jpg",
           "visible": true,
           "order": 31
+        },
+        {
+          "id": "studio-ec10849d6567",
+          "image": "assets/courses/1000101985-jpg-3b734856.jpg",
+          "visible": true,
+          "order": 32
         }
       ]
     },
