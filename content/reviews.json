@@ -2,19 +2,11 @@
   "schemaVersion": 1,
   "source": "google-parsing",
   "googleUrl": "https://share.google/effulA2MOSSWAdJMj",
-  "resolvedGoogleUrl": "https://www.google.com/maps/place/Fitness+Stretching+Leipzig/@51.344344,12.3965369,17z/data=!3m1!4b1!4m6!3m5!1s0x47a6f9cd7c1f2169:0x31346af8aa14f495!8m2!3d51.344344!4d12.3965369!16s%2Fg%2F11lybnpzzm?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
-  "lastUpdated": "2026-11-14T14:13:18.465Z",
+  "resolvedGoogleUrl": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x47a6f9cd7c1f2169:0x31346af8aa14f495?sa=X&ved=1t:8290&ictx=111",
+  "lastUpdated": "2026-11-14T15:13:48.971Z",
   "rating": 5,
   "totalReviewCount": 50,
   "reviews": [
-    {
-      "id": "Ci9DQUlRQUNvZENodHljRjlvT21Ga1Z6WkpjSFUyV1ZwVmVrOXhWV1p6Y2pnd01IYxAB",
-      "author": "Дария",
-      "rating": 5,
-      "relativeTime": "vor 5 Tagen",
-      "text": "Das beste Fitnessstudio, das ich bisher in Leipzig erlebt habe!\nEine unglaublich aufmerksame, kreative und herzliche Trainerin, die jedes Training abwechslungsreich gestaltet und mit viel Leidenschaft ein tolles …",
-      "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocLfDWo97Am5gUg4YR5NLMbemqU05NcvxucgHHqJEUiAWm2OKQ=w36-h36-p-rp-mo-br100"
-    },
     {
       "id": "Ci9DQUlRQUNvZENodHljRjlvT2s5aVluUnhhVFZ6YjNaUFZTMDNWRXhhYWpOblMwRRAB",
       "author": "Cristina Zgherea",
@@ -30,6 +22,14 @@
       "relativeTime": "vor 11 Monaten",
       "text": "Bin seit Februar 2025 aktives Mitglied bei den Fitnesskursen von Oksana. Ich kann die Kurse und die Trainerin sehr empfehlen! Das Training ist sehr intensiv und stets abwechslungsreich. Wer auf seine Gesundheit achtet und etwas für seinen Körper uns Seele tun möchte ist hier richtig!",
       "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjUutLY4-1jrssu_9L3iirOFEQnKGQeNYYOiGsBU-j6Jp9eqBtf31w=w36-h36-p-rp-mo-br100"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT21sc04xOTVNUzFHZVV4cmEyVnRVVXhLWXpoNU1FRRAB",
+      "author": "Ekaterina",
+      "rating": 5,
+      "relativeTime": "vor einer Woche",
+      "text": "Super Kurse! Tolles Kraft- und Stretching Training, mehrere Kurse die Woche zu unterschiedlichen Zeiten und gute Stimmung!",
+      "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocIezTnH5IYT_0AWC8p0kByaIK_CcgHYlFvujOL_RL7oU8ExIQ=w36-h36-p-rp-mo-br100"
     }
   ]
 }
