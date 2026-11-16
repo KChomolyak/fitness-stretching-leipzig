@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "google-parsing",
   "googleUrl": "https://share.google/effulA2MOSSWAdJMj",
-  "resolvedGoogleUrl": "https://www.google.com/maps/place/Fitness+Stretching+Leipzig/@51.344344,12.3965369,17z/data=!4m8!3m7!1s0x47a6f9cd7c1f2169:0x31346af8aa14f495!8m2!3d51.344344!4d12.3965369!9m1!1b1!16s%2Fg%2F11lybnpzzm?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
-  "lastUpdated": "2026-11-16T02:15:06.603Z",
+  "resolvedGoogleUrl": "https://www.google.com/maps/place/Fitness+Stretching+Leipzig/@51.344344,12.3965369,17z/data=!3m1!4b1!4m6!3m5!1s0x47a6f9cd7c1f2169:0x31346af8aa14f495!8m2!3d51.344344!4d12.3965369!16s%2Fg%2F11lybnpzzm?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+  "lastUpdated": "2026-11-16T03:12:54.750Z",
   "rating": 5,
-  "totalReviewCount": 5,
+  "totalReviewCount": 50,
   "reviews": [
     {
       "id": "Ci9DQUlRQUNvZENodHljRjlvT21Ga1Z6WkpjSFUyV1ZwVmVrOXhWV1p6Y2pnd01IYxAB",
@@ -30,22 +30,6 @@
       "relativeTime": "Bearbeitet: vor 5 Monaten",
       "text": "Toller Fitnesskurs mit einer motivierenden und professionellen Trainerin! Die Übungen wurden verständlich erklärt und auf unterschiedliche Fitnesslevel angepasst. Ich habe mich nach jedem Training super gefühlt und freue mich schon auf die nächsten Kurse. Absolut empfehlenswert!",
       "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocLZqNLll9slNKfgqs9kdaRUcKyS1-yxNKCVm5NhPvgmotDXUA=w36-h36-p-rp-mo-br100"
-    },
-    {
-      "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWd2NtVlhRaTFrYkc1eFN6SmtjbVJDUkdwRFNHYxAB",
-      "author": "Alina Wuest",
-      "rating": 5,
-      "relativeTime": "vor 11 Monaten",
-      "text": "Bin seit Februar 2025 aktives Mitglied bei den Fitnesskursen von Oksana. Ich kann die Kurse und die Trainerin sehr empfehlen! Das Training ist sehr intensiv und stets abwechslungsreich. Wer auf seine Gesundheit achtet und etwas für seinen Körper uns Seele tun möchte ist hier richtig!",
-      "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjUutLY4-1jrssu_9L3iirOFEQnKGQeNYYOiGsBU-j6Jp9eqBtf31w=w36-h36-p-rp-mo-br100"
-    },
-    {
-      "id": "Ci9DQUlRQUNvZENodHljRjlvT21sc04xOTVNUzFHZVV4cmEyVnRVVXhLWXpoNU1FRRAB",
-      "author": "Ekaterina",
-      "rating": 5,
-      "relativeTime": "vor einer Woche",
-      "text": "Super Kurse! Tolles Kraft- und Stretching Training, mehrere Kurse die Woche zu unterschiedlichen Zeiten und gute Stimmung!",
-      "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocIezTnH5IYT_0AWC8p0kByaIK_CcgHYlFvujOL_RL7oU8ExIQ=w36-h36-p-rp-mo-br100"
     }
   ]
 }
