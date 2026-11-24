@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "google-parsing",
   "googleUrl": "https://share.google/effulA2MOSSWAdJMj",
-  "resolvedGoogleUrl": "https://www.google.com/maps/place/Fitness+Stretching+Leipzig/@51.344344,12.3965369,17z/data=!3m1!4b1!4m6!3m5!1s0x47a6f9cd7c1f2169:0x31346af8aa14f495!8m2!3d51.344344!4d12.3965369!16s%2Fg%2F11lybnpzzm?entry=ttu&g_ep=EgoyMDI2MTEyMi4wIKXMDSoASAFQAw%3D%3D",
-  "lastUpdated": "2026-11-24T05:39:06.394Z",
-  "rating": 5,
-  "totalReviewCount": 50,
+  "resolvedGoogleUrl": "https://www.google.com/maps/place/Fitness+Stretching+Leipzig/@51.344344,12.3965369,17z/data=!4m8!3m7!1s0x47a6f9cd7c1f2169:0x31346af8aa14f495!8m2!3d51.344344!4d12.3965369!9m1!1b1!16s%2Fg%2F11lybnpzzm?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "lastUpdated": "2026-11-24T07:43:14.924Z",
+  "rating": 4.8,
+  "totalReviewCount": 5,
   "reviews": [
     {
       "id": "Ci9DQUlRQUNvZENodHljRjlvT25BdFUxSXRNa1puVWsxTE0zbzFWMjVpYzE5TVNWRRAB",
@@ -30,6 +30,22 @@
       "relativeTime": "vor einer Woche",
       "text": "Ich besuche das Studio Fitness Stretching Leipzig sehr gerne und bin wirklich begeistert! Die Trainerin ist äußerst professionell, freundlich und herzlich. Sie erklärt jede Übung verständlich, gibt hilfreiche Tipps und unterstützt einen …",
       "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocLITiN59QXZ9PPaA05rExdjmmK6WCpxAKuSdiblz0G0quLw=w36-h36-p-rp-mo-br100"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT2t4aFFYaFdUbTFKUm1aM2JVRkhkbXRIWW5aM2MwRRAB",
+      "author": "Lena",
+      "rating": 4,
+      "relativeTime": "vor einer Woche",
+      "text": "Es gibt viele unterschiedliche Kurse, die sehr viel Spaß machen. Nachdem ich eine lange Zeit ins Gym gegangen bin, habe ich ein wenig die Motivation für Sport verloren. Hier habe ich sie wiedergefunden, es ist ein toller Ausgleich 😊! Die …",
+      "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocKuEjD2mjKogAnNaIUp50Vi2ywA2K9eM2VEwOcBiZAcmuXCFA=w36-h36-p-rp-mo-br100"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT21Fd09XRk1jRmwyVUhaSFFXcFVZM1ZrVDNkdGRXYxAB",
+      "author": "Alona Smakovska",
+      "rating": 5,
+      "relativeTime": "vor einer Woche",
+      "text": "Ich liebe die Trainings in Fitness Stretching! ❤️ Für mich ist es die perfekte Möglichkeit, nach einem anstrengenden Arbeitstag abzuschalten, neue Energie zu tanken und wieder zu mir selbst zu finden. …",
+      "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocLk2_vt6Jopj4RGg_9aDz2o3wN8HNIDnkr03ZvGjex3Lb7AAQ=w36-h36-p-rp-mo-br100"
     }
   ]
 }
